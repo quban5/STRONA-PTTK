@@ -257,7 +257,8 @@ body {
 
 .menu-link-lower-expandable {
 	display: block;
-	padding: 0.5rem 1rem;
+	padding: 0.7rem 1.3rem;
+	font-size: 1rem;
 	text-decoration: none;
 	color: #000000;
 	white-space: nowrap;
@@ -765,6 +766,22 @@ body {
 }
 
 .copyright-text {
-	font-size: 0.8rem;
+	font-size: 0.7rem;
 	color: #003e1d
+}
+
+
+/*Kontakt only values*/
+
+.kontakt-title-container {
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+}
+
+.kontakt-title {
+	font-family: Lato;
+	font-size: 1.75rem;
+	font-weight: 700;
+	color:#009246;
+	margin: 0;
 }
