@@ -491,21 +491,25 @@ body {
 /* Article Links */
 .article-link {
 	text-decoration: underline;
+	text-underline-offset: 0.2rem;
 	color: #0088CE;
 }
 
 .article-link:hover {
 	text-decoration: underline;
+	text-underline-offset: 0.2rem;
 	color: #0088CE;
 }
 
 .article-link:visited {
 	text-decoration: underline;
+	text-underline-offset: 0.2rem;
 	color: #0088CE;
 }
 
 .article-link:active {
 	text-decoration: underline;
+	text-underline-offset: 0.2rem;
 	color: #0088CE;
 }
 
@@ -771,7 +775,7 @@ body {
 }
 
 
-/*Kontakt only values*/
+/*KONTAKT ONLY VALUES*/
 
 .kontakt-title-container {
 	padding-top: 2rem;
@@ -779,9 +783,37 @@ body {
 }
 
 .kontakt-title {
-	font-family: Lato;
 	font-size: 1.75rem;
 	font-weight: 700;
 	color:#009246;
 	margin: 0;
+}
+
+.contact-details-main-container {
+	display: flex;
+	justify-content: space-between;
+}
+
+.contact-details-container {
+	padding-bottom: 2rem;
+}
+
+.contact-details-headline {
+	font-size: 1.2rem;
+	margin-bottom: 2rem;
+}
+
+.contact-details-paragraph {
+	font-size: 1rem;
+}
+
+.contact-mailto,
+.contact-mailto:hover,
+.contact-mailto:active,
+.contact-mailto:focus,
+.contact-mailto:visited
+ {
+	text-decoration: underline;
+	text-underline-offset: 0.2rem;
+	color: #0088CE
 }
