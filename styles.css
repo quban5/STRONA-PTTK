@@ -829,12 +829,12 @@ body {
 
 /*KONTAKT ONLY VALUES*/
 
-.kontakt-title-container {
+.site-title-container {
 	padding-top: 2rem;
 	padding-bottom: 2rem;
 }
 
-.kontakt-title {
+.site-title {
 	font-size: 1.75rem;
 	font-weight: 700;
 	color:#009246;

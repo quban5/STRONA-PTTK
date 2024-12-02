@@ -1,0 +1,18 @@
+			<a class="chronotex-banner-link" href="https://chronotex.pl/" target="_blank">
+				<div class="chronotex-banner">
+					<div class="chronotex-banner-wrapper">
+
+						<div class="chronotex-banner-logo">
+							<img class="chronotex-banner-logo-image" src="static/img/chronotex.png" />
+						</div>
+
+						<div class="chronotex-banner-span-container">
+							<span class="chronotex-banner-span">Niezawodnym partnerem "Szańca" przy<br />organizacji wydarzeń jest firma <b class="chronotex-banner-span-bold">Chronotex</b></span>
+						</div>
+
+					</div>
+				</div>
+			</a>
+
+
+			<div class="break-line-third"></div>
