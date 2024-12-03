@@ -352,13 +352,28 @@ body {
 	text-decoration: none;
 }
 
+.important-info-icon-span-wrapper {
+	display: flex;
+}
+
+.important-info-icon-container {
+	display: flex;
+	align-items: center;
+	padding-left: 1rem;
+}
+
+.important-info-icon {
+	width: 100%;
+	max-height: 1.8rem;
+}
+
 .important-info-span-container {
 	display: flex;
 }
 
 .important-info-span {
 	font-size: 0.8rem;
-	padding-left: 1rem;
+	padding-left: 0.8rem;
 	padding-right: 1rem;
 	padding-top: 0.9rem;
 	padding-bottom: 0.9rem;
