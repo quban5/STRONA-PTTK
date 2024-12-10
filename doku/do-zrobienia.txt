@@ -7,3 +7,5 @@ wyczyscic gluche linki
 poprawic logo tobartus
 
 zeby kazda odznaka przekierowywala do odznaki.html ale odpowiednio przescrollowane
+
+poprawic

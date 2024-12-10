@@ -390,6 +390,9 @@ body {
 	width: 100%;
 }
 
+.homepage-banner-container {
+}
+
 .homepage-banner-image {
 	width: 100%;
 	max-height: 14rem;
@@ -405,11 +408,6 @@ body {
 	z-index: 2;
 	left: 1.5rem;
 	bottom: 4rem;
-	font-family: Poppins;
-	font-weight: 600;
-	font-size: 2.2rem;
-	color: #ffffff;
-	text-shadow: 2px 2px 15px #1E1E1E;
 }
 
 .homepage-banner-image-text-bottom {
@@ -417,18 +415,32 @@ body {
 	z-index: 2;
 	left: 1.5rem;
 	bottom: 1rem;
+	display: block;
+}
+
+.homepage-banner-image-text-span {
 	font-family: Poppins;
 	font-weight: 600;
 	font-size: 2.2rem;
 	color: #ffffff;
-	text-shadow: 2px 2px 13px #1a1a1a;
+	text-shadow: 2px 2px 15px #1E1E1E;
+}
+
+.homepage-banner-logo {
+	position: absolute;
+	z-index: 2;
+	right: 1.5rem;
+	bottom: 3rem;
+	max-height: 10rem;
+	box-shadow: 0px 0px 9px 6px rgba(0, 0, 0, 0.1);
+	border-radius: 14px;
 }
 
 .homepage-banner-image-text-license {
 	position: absolute;
 	z-index: 2;
-	right: 0.9rem;
-	bottom: 0.5rem;
+	right: 1.5rem;
+	bottom: 1rem;
 	font-size: 0.8rem;
 	color: #d7d7d7;
 	text-shadow: 2px 2px 13px #1a1a1a;
@@ -440,6 +452,7 @@ body {
 .license:focus {
 	color: #d7d7d7;
 	text-decoration: none;
+	display: block;
 }
 
 .license:hover {
