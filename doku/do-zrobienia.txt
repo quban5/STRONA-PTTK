@@ -1,11 +1,11 @@
 mapa google do kontaktu
 
-logo szanca do baneru
+zrobic zeby logo przekierowywalo do index.html
 
 wyczyscic gluche linki
 
-poprawic logo tobartus
-
 zeby kazda odznaka przekierowywala do odznaki.html ale odpowiednio przescrollowane
 
-poprawic
+poprawic wyrownanie na banerze
+
+zrobic logo bushcraft
