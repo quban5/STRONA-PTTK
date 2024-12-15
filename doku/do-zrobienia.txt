@@ -1,4 +1,6 @@
-mapa google do kontaktu
+mapa google do kontaktu poprawic
+
+dodac zdjecie obok mapy google
 
 zrobic zeby logo przekierowywalo do index.html
 
@@ -8,4 +10,8 @@ zeby kazda odznaka przekierowywala do odznaki.html ale odpowiednio przescrollowa
 
 poprawic wyrownanie na banerze
 
-zrobic logo bushcraft
+dodac kalendarz imprez do menu w kategorii wydarzenia
+
+poprawic chronotex
+
+przyjazne linki
