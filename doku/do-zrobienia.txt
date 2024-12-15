@@ -15,3 +15,5 @@ dodac kalendarz imprez do menu w kategorii wydarzenia
 poprawic chronotex
 
 przyjazne linki
+
+zrobic favicon
