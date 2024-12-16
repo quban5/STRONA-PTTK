@@ -1,19 +1,21 @@
-mapa google do kontaktu poprawic
+            mapa google do kontaktu poprawic
 
-dodac zdjecie obok mapy google
+            dodac zdjecie obok mapy google
 
-zrobic zeby logo przekierowywalo do index.html
+            zrobic zeby logo przekierowywalo do index.html
 
 wyczyscic gluche linki
 
 zeby kazda odznaka przekierowywala do odznaki.html ale odpowiednio przescrollowane
 
-poprawic wyrownanie na banerze
+            poprawic wyrownanie na banerze
 
-dodac kalendarz imprez do menu w kategorii wydarzenia
+            dodac kalendarz imprez do menu w kategorii wydarzenia
 
-poprawic chronotex
+            poprawic chronotex
 
 przyjazne linki
 
 zrobic favicon
+
+optymalizacyjne wpisy do head

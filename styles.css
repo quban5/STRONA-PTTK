@@ -390,9 +390,6 @@ body {
 	width: 100%;
 }
 
-.homepage-banner-container {
-}
-
 .homepage-banner-image {
 	width: 100%;
 	max-height: 14rem;
@@ -430,7 +427,7 @@ body {
 	position: absolute;
 	z-index: 2;
 	right: 1.5rem;
-	bottom: 3rem;
+	bottom: 1.8rem;
 	max-height: 10rem;
 	box-shadow: 0px 0px 9px 6px rgba(0, 0, 0, 0.1);
 	border-radius: 14px;
@@ -439,24 +436,24 @@ body {
 .homepage-banner-image-text-license {
 	position: absolute;
 	z-index: 2;
-	right: 1.5rem;
-	bottom: 1rem;
-	font-size: 0.8rem;
-	color: #d7d7d7;
-	text-shadow: 2px 2px 13px #1a1a1a;
+	left: 1.5rem;
+	top: 2rem;
+	font-size: 0.7rem;
+	color: #353535;
+	text-shadow: 1px 1px 1px #ffffff;
 }
 
 .license,
 .license:active,
 .license:visited,
 .license:focus {
-	color: #d7d7d7;
+	color: #353535;
 	text-decoration: none;
 	display: block;
 }
 
 .license:hover {
-	color: #d7d7d7;
+	color: #353535;
 	text-decoration: underline;
 	text-underline-offset: 0.15rem;
 }
@@ -593,71 +590,6 @@ body {
 	color: #0088CE;
 }
 
-/* Chronotex Banner */
-.chronotex-banner-link {
-	text-decoration: none;
-	color: #ffffff;
-	transition: all 0.25s ease;
-}
-
-.chronotex-banner-link:hover {
-	text-decoration: none;
-	color: #ffffff;
-	filter: brightness(85%);
-}
-
-.chronotex-banner-link:visited {
-	text-decoration: none;
-	color: #ffffff;
-}
-
-.chronotex-banner-link:active {
-	text-decoration: none;
-	color: #ffffff;
-}
-
-.chronotex-banner {
-	display: flex;
-	align-items: center;
-	width: 100%;
-	height: 9rem;
-	background-color: #F07E00;
-	border-radius: 24px;
-	justify-content: center;
-	box-shadow: 0px 0px 9px 6px rgba(0, 0, 0, 0.1);
-}
-
-.chronotex-banner-wrapper {
-	display: flex;
-}
-
-.chronotex-banner-logo {
-	display: flex;
-	align-items: center;
-	padding-top: 0.5rem;
-	padding-bottom: 0.5rem;
-	padding-right: 5rem;
-	height: 8rem;
-}
-
-.chronotex-banner-logo-image {
-	width: 100%;
-	max-height: 6rem;
-	object-fit: contain;
-}
-
-.chronotex-banner-span-container {
-	display: flex;
-	align-items: center;
-}
-
-.chronotex-banner-span {
-	font-family: Poppins;
-	font-weight: 400;
-	font-size: 1.5rem;
-	color: #ffffff;
-}
-
 
 /* Events */
 .head-events {
@@ -759,6 +691,11 @@ body {
 	padding-right: 1rem;
 	margin: auto;
 }
+
+.event-chronotex-background {
+	background-color: #F07E00;
+	border-radius: inherit;
+}	
 
 
 /* Footer */
@@ -891,7 +828,7 @@ body {
 }
 
 .contact-details-container {
-	padding-bottom: 2rem;
+	padding-bottom: 4rem;
 }
 
 .contact-details-heading-icon-container {
@@ -925,4 +862,34 @@ body {
 	text-decoration: underline;
 	text-underline-offset: 0.2rem;
 	color: #0088CE
+}
+
+.contact-map-photo-container {
+	display: flex;
+}
+
+.google-map {
+	border-radius: 24px;
+	max-width: 100%;
+	max-height: 100%
+
+}
+
+.contact-map-container {
+	width: 66%;
+	height: 23rem;
+	padding-bottom: 4rem;
+	padding-right: 2rem;
+}
+
+.contact-building-photo-container {
+	width: 33%;
+	max-height: 100%;
+}
+
+.contact-building-photo {
+	object-fit: contain;
+	width: 100%;
+	height: 23rem;
+	border-radius: 24px;
 }

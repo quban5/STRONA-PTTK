@@ -16,3 +16,71 @@
 
 
 			<div class="break-line-third"></div>
+
+
+
+
+/* Chronotex Banner */
+.chronotex-banner-link {
+	text-decoration: none;
+	color: #ffffff;
+	transition: all 0.25s ease;
+}
+
+.chronotex-banner-link:hover {
+	text-decoration: none;
+	color: #ffffff;
+	filter: brightness(85%);
+}
+
+.chronotex-banner-link:visited {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.chronotex-banner-link:active {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.chronotex-banner {
+	display: flex;
+	align-items: center;
+	width: 100%;
+	height: 9rem;
+	background-color: #F07E00;
+	border-radius: 24px;
+	justify-content: center;
+	box-shadow: 0px 0px 9px 6px rgba(0, 0, 0, 0.1);
+}
+
+.chronotex-banner-wrapper {
+	display: flex;
+}
+
+.chronotex-banner-logo {
+	display: flex;
+	align-items: center;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+	padding-right: 5rem;
+	height: 8rem;
+}
+
+.chronotex-banner-logo-image {
+	width: 100%;
+	max-height: 6rem;
+	object-fit: contain;
+}
+
+.chronotex-banner-span-container {
+	display: flex;
+	align-items: center;
+}
+
+.chronotex-banner-span {
+	font-family: Poppins;
+	font-weight: 400;
+	font-size: 1.5rem;
+	color: #ffffff;
+}
