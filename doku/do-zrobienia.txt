@@ -1,21 +1,15 @@
-            mapa google do kontaktu poprawic
+dodac adresy do linkow
 
-            dodac zdjecie obok mapy google
-
-            zrobic zeby logo przekierowywalo do index.html
+dokonczyc linki
 
 wyczyscic gluche linki
 
 zeby kazda odznaka przekierowywala do odznaki.html ale odpowiednio przescrollowane
-
-            poprawic wyrownanie na banerze
-
-            dodac kalendarz imprez do menu w kategorii wydarzenia
-
-            poprawic chronotex
 
 przyjazne linki
 
 zrobic favicon
 
 optymalizacyjne wpisy do head
+
+Dodanie historii odziału do historia.html
