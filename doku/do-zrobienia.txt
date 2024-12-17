@@ -1,6 +1,6 @@
-dodac margines do linki i historia i kontakt
+poprawic wyswietlanie zdjecia w kontakcie
 
-dokonczyc linki
+dokonczyc linki.html
 
 wyczyscic gluche linki
 
