@@ -1,4 +1,4 @@
-dodac adresy do linkow
+dodac margines do linki i historia i kontakt
 
 dokonczyc linki
 

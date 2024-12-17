@@ -89,6 +89,11 @@
 	font-family: Lato;
 }
 
+.outer-wrapper {
+	padding-left: 2rem;
+	padding-right: 2rem;
+}
+
 .body-background-color {
 	background-color: #F5F5F5;
 }
@@ -125,6 +130,9 @@ body {
 	align-items: center;
 	justify-content: space-between;
 	height: 100%;
+	padding-left: 2rem;
+	padding-right: 2rem;
+	box-sizing: border-box;
 }
 
 .logo-container {
@@ -716,6 +724,9 @@ body {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
+	padding-left: 2rem;
+	padding-right: 2rem;
+	box-sizing: border-box;
 }
 
 .site-map {
