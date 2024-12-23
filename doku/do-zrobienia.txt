@@ -1,7 +1,3 @@
-poprawic wyswietlanie zdjecia w kontakcie
-
-dokonczyc linki.html
-
 wyczyscic gluche linki
 
 zeby kazda odznaka przekierowywala do odznaki.html ale odpowiednio przescrollowane

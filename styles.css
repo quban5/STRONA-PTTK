@@ -95,7 +95,7 @@
 }
 
 .body-background-color {
-	background-color: #F5F5F5;
+	background-color: #f7f7f7;
 }
 
 #main-wrapper {
@@ -911,10 +911,69 @@ body {
 .links-main-container {
 	display: flex;
 	flex-flow: row wrap;
-	justify-content: space-between;
 	padding-bottom: 4rem;
+	justify-content: space-between;
 }
 
 .link-block {
-	width: 33%;
+	width: 45%;
+	margin-bottom: 3rem;
+	background-color: #FFFFFF;
+	border-radius: 24px;
+	display: flex;
+	flex-direction: column;
+}
+
+.link-content-wrapper {
+	padding-left: 2rem;
+	padding-right: 2rem;
+	padding-top: 1.5rem;
+	padding-bottom: 1.5rem;
+}
+
+.link-title-container {
+	min-height: 3rem;
+}
+
+.link-title-container-long {
+	min-height: 4rem;
+}
+
+.link-title {
+	font-size: 1.1rem;
+	font-weight: 700;
+	margin: 0;
+}
+
+.link-description {
+	font-size: 1rem;
+	margin-top: 0;
+	margin-bottom: 2rem;
+	text-align: justify;
+}
+
+.link-button,
+.link-button:visited,
+.link-button:focus,
+.link-button:active {
+	color: #FFFFFF;
+	text-decoration: none;
+	background-color: #009246;
+	border-radius: 10px;
+	padding-top: 0.25rem;
+	padding-bottom: 0.25rem;
+	padding-left: 0.5rem;
+	padding-right: 0.5rem;
+	transition: all 0.25s ease;
+}
+
+.link-button:hover {
+	filter: brightness(85%);
+}
+
+.link-button-container {
+	position: relative;
+	bottom: 2rem;
+	left: 2rem;
+	margin-top: auto;
 }
