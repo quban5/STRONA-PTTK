@@ -977,3 +977,24 @@ body {
 	left: 2rem;
 	margin-top: auto;
 }
+
+
+/*WLADZE ODDZIALU ONLY VALUES*/
+
+.people-description {
+	font-size: 1rem;
+	margin-top: 0;
+	margin-bottom: 0;
+	text-align: justify;
+}
+
+.wladze-title-container {
+	padding: 1rem;
+	margin-bottom: 1rem;
+}
+
+.wladze-title-span {
+	font-size: 1.3rem;
+	font-weight: 700;
+	color: #009246
+}
