@@ -986,6 +986,10 @@ body {
 	margin-top: auto;
 }
 
+.link-button-inside-container {
+	display: flex;
+}
+
 
 /*WLADZE ODDZIALU ONLY VALUES*/
 
