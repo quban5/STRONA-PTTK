@@ -17,3 +17,5 @@ dodanie ikonek otwarcia w nowej karcie w linkach
 dodac podkreslenia do elementow w rozwijanym menu
 
 dodac bialy blok na tlo do informacji w kontakcie
+
+zamienienie svg w html na img we wladzach oddzialu i kontakt
