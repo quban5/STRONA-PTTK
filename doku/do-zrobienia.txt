@@ -13,3 +13,5 @@ Dodanie historii odziału do historia.html
 sprawdzic aktualosc wladz oddzialu
 
 dodac ikonki do ludzi we wladzach oddzialu
+
+dodanie ikonek otwarcia w nowej karcie w linkach
