@@ -967,6 +967,8 @@ body {
 .link-button:visited,
 .link-button:focus,
 .link-button:active {
+	display: inline-flex;
+	justify-content: center;
 	color: #FFFFFF;
 	text-decoration: none;
 	background-color: #009246;
@@ -986,8 +988,18 @@ body {
 	margin-top: auto;
 }
 
-.link-button-inside-container {
-	display: flex;
+.link-button-inside-span {
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+.link-button-inside-icon {
+	display: inline-block;
+	padding-left: 0.25rem;
+	width: 1rem;
+	height: 1rem;
+	margin-top: auto;
+	margin-bottom: auto;
 }
 
 

@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "F:\\STRONA PTTK\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\STRONA PTTK\\kontakt.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:kontakt.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\STRONA PTTK\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\STRONA PTTK\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\STRONA PTTK\\linki.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:linki.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,47 +18,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "index.html",
-              "DocumentMoniker": "F:\\STRONA PTTK\\index.html",
-              "RelativeDocumentMoniker": "index.html",
-              "ToolTip": "F:\\STRONA PTTK\\index.html",
-              "RelativeToolTip": "index.html",
-              "ViewState": "AgIAAGYBAAAAAAAAAIAxwDsBAAANAAAAAAAAAA==",
+              "Title": "linki.html",
+              "DocumentMoniker": "F:\\STRONA PTTK\\linki.html",
+              "RelativeDocumentMoniker": "linki.html",
+              "ToolTip": "F:\\STRONA PTTK\\linki.html",
+              "RelativeToolTip": "linki.html",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAAFIAAAB1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-07-27T11:57:30.505Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "styles.css",
-              "DocumentMoniker": "F:\\STRONA PTTK\\styles.css",
-              "RelativeDocumentMoniker": "styles.css",
-              "ToolTip": "F:\\STRONA PTTK\\styles.css",
-              "RelativeToolTip": "styles.css",
-              "ViewState": "AgIAAMICAAAAAAAAAIAwwNMCAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-08-02T17:35:13.605Z",
-              "IsPinned": true,
+              "WhenOpened": "2025-01-05T19:02:16.04Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "kontakt.html",
-              "DocumentMoniker": "F:\\STRONA PTTK\\kontakt.html",
-              "RelativeDocumentMoniker": "kontakt.html",
-              "ToolTip": "F:\\STRONA PTTK\\kontakt.html",
-              "RelativeToolTip": "kontakt.html",
-              "ViewState": "AgIAAEUAAAAAAAAAAAAAAGUAAACJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-12-14T18:39:57.834Z",
+              "Title": "styles.css",
+              "DocumentMoniker": "F:\\STRONA PTTK\\styles.css",
+              "RelativeDocumentMoniker": "styles.css",
+              "ToolTip": "F:\\STRONA PTTK\\styles.css",
+              "RelativeToolTip": "styles.css",
+              "ViewState": "AgIAANQDAAAAAAAAAAD4v+cDAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-08-02T17:35:13.605Z",
               "EditorCaption": ""
             }
           ]

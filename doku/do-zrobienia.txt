@@ -13,3 +13,7 @@ Dodanie historii odziału do historia.html
 sprawdzic aktualosc wladz oddzialu
 
 dodanie ikonek otwarcia w nowej karcie w linkach
+
+dodac podkreslenia do elementow w rozwijanym menu
+
+dodac bialy blok na tlo do informacji w kontakcie
