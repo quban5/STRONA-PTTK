@@ -24,3 +24,10 @@ naprawic skalowanie zdjecia w kontakcie
 
 dodac kalendarz imprez do stopki
 
+dodanie open graph data
+
+social media card (w zakladkach)
+
+dodanie szybkiego csp
+
+dodac wpisy do head w innych dokumentach
