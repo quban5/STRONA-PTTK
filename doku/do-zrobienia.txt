@@ -22,3 +22,5 @@ zamienienie svg w html na img we wladzach oddzialu i kontakt
 
 naprawic skalowanie zdjecia w kontakcie
 
+dodac kalendarz imprez do stopki
+
