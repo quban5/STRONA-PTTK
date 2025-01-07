@@ -4,8 +4,6 @@ zeby kazda odznaka przekierowywala do odznaki.html ale odpowiednio przescrollowa
 
 przyjazne linki
 
-zrobic favicon
-
 optymalizacyjne wpisy do head
 
 Dodanie historii odziału do historia.html
@@ -31,3 +29,5 @@ social media card (w zakladkach)
 dodanie szybkiego csp
 
 dodac wpisy do head w innych dokumentach
+
+dokonczyc odznaki

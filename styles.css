@@ -309,10 +309,6 @@ body {
 	align-items: center;
 }
 
-.li-category-span {
-	padding-right: 0.4rem;
-}
-
 .arrow-down {
 	border: solid black;
 	border-width: 0 2px 2px 0;
