@@ -1124,3 +1124,11 @@ body {
 .link-button-container-1n {
 	margin-top: auto;
 }
+
+.odznaka-info-container {
+	max-width: 700px;
+}
+
+.odznaka-info-title-container {
+	text-align: center;
+}

@@ -10,11 +10,9 @@ Dodanie historii odziału do historia.html
 
 sprawdzic aktualosc wladz oddzialu
 
-dodac bialy blok na tlo do informacji w kontakcie
+dodac odpowiedni href do kalendarza imprez w stopkach
 
 zamienienie svg w html na img we wladzach oddzialu i kontakt
-
-dodac kalendarz imprez do stopki
 
 dodanie open graph data
 
@@ -22,6 +20,6 @@ social media card (w zakladkach)
 
 dodanie szybkiego csp
 
-dodac wpisy do head w innych dokumentach
-
 dokonczyc odznaki
+
+dodac interlinie do wszystkich tekstow w akapitach (sprawdzic to)
