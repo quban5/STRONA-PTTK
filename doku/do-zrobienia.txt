@@ -20,6 +20,4 @@ social media card (w zakladkach)
 
 dodanie szybkiego csp
 
-dodac link do LP Skierniewice w Linkach
-
 customowa strona 404
