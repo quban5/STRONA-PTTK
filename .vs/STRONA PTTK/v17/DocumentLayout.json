@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "F:\\STRONA PTTK\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\STRONA PTTK\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\STRONA PTTK\\linki.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:linki.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\STRONA PTTK\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
@@ -23,14 +23,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "index.html",
-              "DocumentMoniker": "F:\\STRONA PTTK\\index.html",
-              "RelativeDocumentMoniker": "index.html",
-              "ToolTip": "F:\\STRONA PTTK\\index.html",
-              "RelativeToolTip": "index.html",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA0AAAAAAAAAA==",
+              "Title": "linki.html",
+              "DocumentMoniker": "F:\\STRONA PTTK\\linki.html",
+              "RelativeDocumentMoniker": "linki.html",
+              "ToolTip": "F:\\STRONA PTTK\\linki.html",
+              "RelativeToolTip": "linki.html",
+              "ViewState": "AgIAAHgAAAAAAAAAAADgv4UAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-01-06T17:40:31.663Z",
+              "WhenOpened": "2025-01-11T20:43:03.87Z",
               "EditorCaption": ""
             },
             {
@@ -41,10 +41,9 @@
               "RelativeDocumentMoniker": "styles.css",
               "ToolTip": "F:\\STRONA PTTK\\styles.css",
               "RelativeToolTip": "styles.css",
-              "ViewState": "AgIAAEMEAAAAAAAAAADwv18EAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAGAEAAAAAAAAAADgv30EAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-08-02T17:35:13.605Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-02T17:35:13.605Z"
             }
           ]
         }

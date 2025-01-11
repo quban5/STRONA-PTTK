@@ -963,6 +963,7 @@ body {
 	font-size: 1.1rem;
 	font-weight: 700;
 	margin: 0;
+	line-height: 130%;
 }
 
 .link-description {
@@ -970,6 +971,7 @@ body {
 	margin-top: 0;
 	margin-bottom: 2rem;
 	text-align: justify;
+	line-height: 150%;
 }
 
 .link-button,
@@ -1089,10 +1091,12 @@ body {
 	font-size: 1.5rem;
 	color: #009246;
 	font-weight: 700;
+	line-height: 130%;
 }
 
 .odznaka-description {
 	font-size: 1rem;
+	line-height: 150%;
 }
 
 .buttons-container {
@@ -1131,4 +1135,17 @@ body {
 
 .odznaka-info-title-container {
 	text-align: center;
+}
+
+.odznaka-info-description {
+	font-size: 1rem;
+	line-height: 150%;
+	text-align: justify;
+}
+
+.odznaka-list {
+	line-height: 150%;
+	padding-left: 2rem;
+	text-align: justify;
+	list-style-type: disc;
 }

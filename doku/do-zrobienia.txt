@@ -20,6 +20,6 @@ social media card (w zakladkach)
 
 dodanie szybkiego csp
 
-dokonczyc odznaki
+dodac link do LP Skierniewice w Linkach
 
-dodac interlinie do wszystkich tekstow w akapitach (sprawdzic to)
+customowa strona 404
