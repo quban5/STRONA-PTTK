@@ -2,10 +2,6 @@ wyczyscic gluche linki
 
 zeby kazda odznaka przekierowywala do odznaki.html ale odpowiednio przescrollowane
 
-przyjazne linki
-
-optymalizacyjne wpisy do head
-
 Dodanie historii odziału do historia.html
 
 sprawdzic aktualosc wladz oddzialu
@@ -16,6 +12,14 @@ social media card (w zakladkach)
 
 dodanie szybkiego csp
 
+poprawic wyswietlanie blokow w przewodnikach
+
+
+
+DODATKOWE
+
+przyjazne linki
+
 customowa strona 404
 
-poprawic wyswietlanie blokow w przewodnikach
+optymalizacyjne wpisy do head

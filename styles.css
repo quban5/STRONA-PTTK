@@ -1177,6 +1177,8 @@ body {
 	padding-bottom: 1.5rem;
 	display: flex;
 	flex-direction: row;
+	box-sizing: border-box;
+	height: 100%;
 }
 
 .guides-block:last-of-type {
