@@ -10,10 +10,6 @@ Dodanie historii odziału do historia.html
 
 sprawdzic aktualosc wladz oddzialu
 
-dodac odpowiedni href do kalendarza imprez w stopkach
-
-zamienienie svg w html na img we wladzach oddzialu i kontakt
-
 dodanie open graph data
 
 social media card (w zakladkach)
@@ -21,3 +17,5 @@ social media card (w zakladkach)
 dodanie szybkiego csp
 
 customowa strona 404
+
+poprawic wyswietlanie blokow w przewodnikach

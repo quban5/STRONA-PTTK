@@ -821,7 +821,7 @@ body {
 }
 
 
-/*KONTAKT ONLY VALUES*/
+/*KONTAKT VALUES*/
 
 .site-title-container {
 	padding-top: 2rem;
@@ -907,7 +907,7 @@ body {
 }
 
 
-/*LINKI ONLY VALUES*/
+/*LINKI VALUES*/
 
 .links-main-container {
 	display: flex;
@@ -1014,7 +1014,7 @@ body {
 }
 
 
-/*WLADZE ODDZIALU ONLY VALUES*/
+/*WLADZE ODDZIALU VALUES*/
 
 .wladze-content-wrapper {
 	padding-left: 2rem;
@@ -1053,7 +1053,7 @@ body {
 }
 
 
-/*ODZNAKI ONLY VALUES*/
+/*ODZNAKI VALUES*/
 
 .odznaka-block {
 	background-color: #ffffff;
@@ -1148,4 +1148,97 @@ body {
 	padding-left: 2rem;
 	text-align: justify;
 	list-style-type: disc;
+}
+
+
+/*GUIDES VALUES*/
+
+.guides-main-container {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	margin-bottom: 3rem;
+}
+
+.guides-block {
+	width: 45%;
+	margin-bottom: 3rem;
+	background-color: #FFFFFF;
+	border-radius: 24px;
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+}
+
+.guides-content-wrapper {
+	padding-left: 2rem;
+	padding-right: 2rem;
+	padding-top: 1.5rem;
+	padding-bottom: 1.5rem;
+	display: flex;
+	flex-direction: row;
+}
+
+.guides-block:last-of-type {
+	margin-bottom: 0;
+}
+
+.guides-person-icon-container{
+	margin-right: 1rem;
+}
+
+.guides-person-icon-image {
+	height: 2rem;
+}
+
+.guides-text-container {
+	display: flex;
+	flex-direction: column;
+}
+
+.guides-title-container {
+	margin-bottom: 0.5rem;
+	height: 2rem;
+	display: flex;	
+}
+
+.guides-title {
+	font-size: 1.1rem;
+	font-weight: 700;
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: auto;
+	margin-bottom: auto;
+	line-height: 130%;
+}
+
+.guides-description {
+	font-size: 1rem;
+	margin-top: 0;
+	margin-bottom: 1.5rem;
+	text-align: justify;
+}
+
+.guides-contact-container {
+	display: flex;
+}
+
+.guides-contact-icon-container {
+	margin-right: 0.4rem;
+	display: flex;
+	margin-top: auto;
+	margin-bottom: auto;
+	align-content: center;
+}
+
+.guides-contact-icon {
+	height: 1.2rem;
+	width: 100%;
+}
+
+.guides-contact {
+	font-size: 1rem;
+	margin-top: 0;
+	margin-bottom: 0.3rem;
+	text-align: justify;
 }
