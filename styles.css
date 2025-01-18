@@ -1245,3 +1245,26 @@ body {
 	margin-bottom: 0.3rem;
 	text-align: justify;
 }
+
+
+/*CALENDAR VALUES*/
+
+.calendar-main-container {
+	background-color: #ffffff;
+	border-radius: 24px;
+	padding: 2rem;
+}
+
+.calendar-description-container {
+	display: flex;
+	justify-content: space-between;
+}
+
+.calendar-description {
+	width: 33%;
+}
+
+.calendar-event {
+	display: flex;
+	justify-content: space-between;
+}
