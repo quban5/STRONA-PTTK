@@ -1255,16 +1255,51 @@ body {
 	padding: 2rem;
 }
 
-.calendar-description-container {
-	display: flex;
-	justify-content: space-between;
+.calendar-description-row {
+	width: 100%;
 }
 
-.calendar-description {
-	width: 33%;
+.calendar-description-row-wrapper {
+	display: flex;
+	width: 100%;
 }
 
-.calendar-event {
-	display: flex;
-	justify-content: space-between;
+.calendar-description-date {
+	width: 20%;
+	padding: 1rem;
 }
+
+.calendar-description-event {
+	width: 40%;
+	padding: 1rem;
+}
+
+.calendar-description-organiser {
+	width: 40%;
+	padding: 1rem;
+}
+
+.calendar-row-contrast {
+	width: 100%;
+}
+
+.calendar-row-wrapper {
+	display: flex;
+	width: 100%;
+}
+
+.calendar-date-cell {
+	width: 20%;
+	padding: 1rem;
+}
+
+.calendar-event-cell {
+	width: 40%;
+	padding: 1rem;
+}
+
+.calendar-organiser-cell {
+	width: 40%;
+	padding: 1rem;
+}
+
