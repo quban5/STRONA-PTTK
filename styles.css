@@ -1072,7 +1072,7 @@ body {
 }
 
 .wladze-icon {
-	height: 5rem;
+	height: 2rem;
 	width: 100%;
 }
 
@@ -1277,6 +1277,7 @@ body {
 .calendar-main-container {
 	background-color: #ffffff;
 	border-radius: 24px;
+	box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 	padding: 2rem;
 }
 
@@ -1292,20 +1293,35 @@ body {
 .calendar-description-date {
 	width: 20%;
 	padding: 1rem;
+	padding-bottom: 2rem;
 }
 
 .calendar-description-event {
 	width: 40%;
 	padding: 1rem;
+	padding-bottom: 2rem;
 }
 
 .calendar-description-organiser {
 	width: 40%;
 	padding: 1rem;
+	padding-bottom: 2rem;
+}
+
+.calendar-description-text {
+	color: #009246;
+	font-size: 1.2rem;
+	font-weight: 700;
 }
 
 .calendar-row-contrast {
 	width: 100%;
+	background-color: #eff1ff;
+}
+
+.calendar-row-white {
+	width: 100%;
+	background-color: #f7f9ff;
 }
 
 .calendar-row-wrapper {
@@ -1316,15 +1332,22 @@ body {
 .calendar-date-cell {
 	width: 20%;
 	padding: 1rem;
+	display: flex;
 }
 
 .calendar-event-cell {
 	width: 40%;
 	padding: 1rem;
+	display: flex;
 }
 
 .calendar-organiser-cell {
 	width: 40%;
 	padding: 1rem;
+	display: flex;
 }
 
+.calendar-cell-text {
+	margin-top: auto;
+	margin-bottom: auto;
+}
