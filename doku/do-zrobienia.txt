@@ -4,8 +4,6 @@ zeby kazda odznaka przekierowywala do odznaki.html ale odpowiednio przescrollowa
 
 Dodanie historii odziału do historia.html
 
-sprawdzic aktualosc wladz oddzialu
-
 dodanie open graph data
 
 social media card (w zakladkach)
@@ -18,11 +16,11 @@ dodac link szlaki turystyczne
 
 dwa kanony i cotg (w omttk)
 
-dodac cieniowanie do kafli
+białe tło do artykułów(?)
 
-inne linki do otwierania w nowej karcie
+większa ikonka człowieka w we wladzach
 
-zmienic daty obradowania got i otp na poniedzialek, godzin 17-19 i zmienic wyrazenie na dyzuruje
+poprawic tlo przy prawach do zdjecia
 
 
 DODATKOWE
