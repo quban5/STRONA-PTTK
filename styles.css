@@ -1281,6 +1281,24 @@ body {
 	padding: 2rem;
 }
 
+.calendar-image-download {
+	margin-bottom: 2rem;
+	display:flex;
+}
+
+.calendar-image-download-text {
+	font-size: 0.8rem;
+}
+
+.calendar-image-download-link,
+.calendar-image-download-link:visited,
+.calendar-image-download-link:focus,
+.calendar-image-download-link:hover {
+	text-decoration: underline;
+	color: #0088CE;
+	text-underline-offset: 0.2rem;
+}
+
 .calendar-description-row {
 	width: 100%;
 }
