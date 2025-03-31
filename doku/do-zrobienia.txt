@@ -16,6 +16,12 @@ dwa kanony i cotg (w omttk)
 
 białe tło do artykułów(?)
 
+odstep przed footerem w kalendarz wydarzen
+
+zamienic wszystkie border-radius na %(?)
+
+wyrownac tytul kola w kola.html
+
 
 
 DODATKOWE
