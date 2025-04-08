@@ -16,11 +16,11 @@ dwa kanony i cotg (w omttk)
 
 białe tło do artykułów(?)
 
-odstep przed footerem w kalendarz wydarzen
-
 zamienic wszystkie border-radius na %(?)
 
-wyrownac tytul kola w kola.html
+zmniejszyc odstep od footera w linkach
+
+zmienic kolejnosc odznak w odznaki.html zeby odpowiadaly stronie glownej
 
 
 
