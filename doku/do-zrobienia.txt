@@ -12,15 +12,11 @@ dodanie szybkiego csp
 
 dodac link szlaki turystyczne
 
+dodac standardy ochrony maloletnich
+
 dwa kanony i cotg (w omttk)
 
-białe tło do artykułów(?)
-
 zamienic wszystkie border-radius na %(?)
-
-zmniejszyc odstep od footera w linkach
-
-zmienic kolejnosc odznak w odznaki.html zeby odpowiadaly stronie glownej
 
 
 
