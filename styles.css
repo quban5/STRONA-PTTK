@@ -343,6 +343,15 @@ body {
 	-webkit-transform: rotate(45deg);
 }
 
+.ul-generic {
+	padding-left: 2rem;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: 150%;
+	text-align: justify;
+  	list-style-type: disc;
+}
+
 
 /*Important Info*/
 .important-info-wrapper {
@@ -713,9 +722,12 @@ body {
 }
 
 .event-image-partner {
-	height: 7rem;
-	display: flex;
-	align-self: center;
+	max-height: 16rem;
+	max-width: 16rem;
+	margin: auto;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	object-fit: contain;
 }
 
 .event-title-container {
@@ -1422,6 +1434,7 @@ body {
 .kolo-description-paragraph-container {
 	margin-left: auto;
 	margin-right: auto;
+	width: 100%;
 }
 
 .kolo-description-paragraph {
