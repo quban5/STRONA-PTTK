@@ -1,3 +1,5 @@
+ogarnac margines na dole we wladzach oddzialu
+
 wyczyscic gluche linki
 
 zeby kazda odznaka przekierowywala do odznaki.html ale odpowiednio przescrollowane

@@ -746,7 +746,7 @@ body {
 }
 
 .event-chronotex-background {
-	background-color: #ff7000;
+	background-color: #f48029;
 	border-radius: inherit;
 }	
 
@@ -1398,6 +1398,14 @@ body {
 
 
 /*KOLA VALUES*/
+
+.kola-main-container {
+	margin-bottom: 3rem;
+}
+
+.kola-main-container:last-of-type {
+	margin-bottom: 0rem;
+}
 
 .kola-background-radius {
 	background-color: #ffffff;
