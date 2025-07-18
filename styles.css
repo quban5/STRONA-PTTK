@@ -975,8 +975,7 @@ body {
 	overflow: hidden;
 }
 
-.link-block:nth-of-type(7),
-.link-block:nth-of-type(8) {
+.link-block:last-of-type {
 	margin-bottom: 0;
 }
 
@@ -1062,6 +1061,18 @@ body {
 
 /*WLADZE ODDZIALU VALUES*/
 
+.wladze-main-container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-bottom: 3rem;
+}
+
+.wladze-main-container:last-of-type {
+	margin-bottom: 0;
+}
+
 .wladze-content-wrapper {
 	padding-left: 2rem;
 	padding-right: 2rem;
@@ -1069,6 +1080,22 @@ body {
 	padding-bottom: 1.5rem;
 	display: flex;
 	flex-direction: row;
+}
+
+.wladze-block {
+	width: 45%;
+	height: auto;
+	margin-bottom: 3rem;
+	background-color: #FFFFFF;
+	box-shadow: 0px 0px 9px 6px rgba(0, 0, 0, 0.1);
+	border-radius: 24px;
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+}
+
+.wladze-block:last-of-type {
+	margin-bottom: 0;
 }
 
 .people-description {
@@ -1465,6 +1492,7 @@ body {
 .kolo-description-paragraph {
 	padding-bottom: 0;
 	padding-top: 0;
+	margin-bottom: 1rem;
 	line-height: 150%;
 	text-align: justify;
 	margin-left: auto;
@@ -1489,4 +1517,16 @@ body {
 	margin-top: 0;
 	margin-left: 0;
 	margin-right: 0;
+}
+
+.wydarzenia-image-container {
+	margin-top: 2rem;
+}
+
+.wydarzenia-image {
+	max-height: 18rem;
+	width: 100%;
+	object-fit: cover;
+	border-radius: 24px;
+	box-shadow: 0px 0px 9px 6px rgba(0, 0, 0, 0.1);
 }

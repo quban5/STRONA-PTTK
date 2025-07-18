@@ -1,5 +1,3 @@
-ogarnac margines na dole we wladzach oddzialu
-
 wyczyscic gluche linki
 
 zeby kazda odznaka przekierowywala do odznaki.html ale odpowiednio przescrollowane
@@ -11,8 +9,6 @@ dodanie open graph data
 social media card (w zakladkach)
 
 dodanie szybkiego csp
-
-dodac link szlaki turystyczne
 
 dodac standardy ochrony maloletnich
 
