@@ -4,8 +4,6 @@ zeby kazda odznaka przekierowywala do odznaki.html ale odpowiednio przescrollowa
 
 Dodanie historii odziału do historia.html
 
-dodanie open graph data
-
 social media card (w zakladkach)
 
 dodanie szybkiego csp
@@ -15,6 +13,8 @@ dwa kanony i cotg (w omttk)
 zamienic wszystkie border-radius na %(?)
 
 link do grupy na FB w rajdach bushractowych
+
+zoptymalizować ładowanie dalszych elementow stron
 
 
 
