@@ -10,11 +10,11 @@ social media card (w zakladkach)
 
 dodanie szybkiego csp
 
-dodac standardy ochrony maloletnich
-
 dwa kanony i cotg (w omttk)
 
 zamienic wszystkie border-radius na %(?)
+
+link do grupy na FB w rajdach bushractowych
 
 
 
