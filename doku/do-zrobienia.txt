@@ -16,6 +16,10 @@ link do grupy na FB w rajdach bushractowych
 
 zoptymalizować ładowanie dalszych elementow stron
 
+pokompresować i pozmniejszać zdjęcia
+
+pousuwać justowanie tekstów(?)
+
 
 
 DODATKOWE
