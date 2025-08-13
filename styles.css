@@ -1223,10 +1223,6 @@ body {
 	max-width: 700px;
 }
 
-.odznaka-info-title-container {
-	text-align: center;
-}
-
 .odznaka-info-description {
 	font-size: 1rem;
 	line-height: 150%;
@@ -1567,4 +1563,113 @@ body {
 	padding-bottom: 2rem;
 	padding-left: 1.1rem;
 	padding-right: 1.1rem;
+}
+
+/*Wydarzenia see more with buttons*/
+
+.wydarzenia-see-more-main-container {
+	margin-bottom: 3rem;
+}
+
+.wydarzenia-see-more-main-container:last-of-type {
+	margin-bottom: 0rem;
+}
+
+.wydarzenia-see-more-background-radius {
+	background-color: #ffffff;
+	border-radius: 24px;
+	box-shadow: 0px 0px 9px 6px rgba(0, 0, 0, 0.1);
+	display: flex;
+	flex-direction: column;
+}
+
+.wydarzenia-see-more-description-container {
+	display: flex;
+	flex-direction: column;
+	max-width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	padding-left: 1.1rem;
+	padding-right: 1.1rem;
+}
+
+.wydarzenia-see-more-header-container {
+	width: 100%;
+	display: flex;
+	margin-bottom: 2rem;
+}
+
+.wydarzenia-see-more-header {
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 1.45rem;
+	font-weight: 700;
+}
+
+.wydarzenia-see-more-buttons-wrapper {
+	width: 100%;
+	display: flex;
+}
+
+.wydarzenia-see-more-button-container {
+	margin-right: 2rem;
+	margin-left: 2rem;
+}
+
+.wydarzenia-see-more-button-link {
+	display: block;
+	padding-top: 0.75rem;
+	padding-bottom: 0.75rem;
+	padding-left: 1.25rem;
+	padding-right: 1.25rem;
+	background-color: #009246;
+	border-radius: 14px;
+	font-weight: 700;
+	color: #ffffff;
+	text-decoration: none;
+	transition: all 0.25s ease;
+}
+
+.wydarzenia-see-more-button-link:visited {
+	display: block;
+	padding-top: 0.75rem;
+	padding-bottom: 0.75rem;
+	padding-left: 1.25rem;
+	padding-right: 1.25rem;
+	background-color: #009246;
+	border-radius: 14px;
+	font-weight: 700;
+	color: #ffffff;
+	text-decoration: none;
+	transition: all 0.25s ease;
+}
+
+.wydarzenia-see-more-button-link:focus {
+	display: block;
+	padding-top: 0.75rem;
+	padding-bottom: 0.75rem;
+	padding-left: 1.25rem;
+	padding-right: 1.25rem;
+	background-color: #009246;
+	border-radius: 14px;
+	font-weight: 700;
+	color: #ffffff;
+	text-decoration: none;
+	transition: all 0.25s ease;
+}
+
+.wydarzenia-see-more-button-link:hover {
+	display: block;
+	padding-top: 0.75rem;
+	padding-bottom: 0.75rem;
+	padding-left: 1.25rem;
+	padding-right: 1.25rem;
+	background-color: #009246;
+	border-radius: 14px;
+	font-weight: 700;
+	color: #ffffff;
+	text-decoration: none;
+	filter: brightness(85%);
 }

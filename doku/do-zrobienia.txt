@@ -4,8 +4,6 @@ zeby kazda odznaka przekierowywala do odznaki.html ale odpowiednio przescrollowa
 
 Dodanie historii odziału do historia.html
 
-social media card (w zakladkach)
-
 dodanie szybkiego csp
 
 dwa kanony i cotg (w omttk)
@@ -19,6 +17,10 @@ zoptymalizować ładowanie dalszych elementow stron
 pokompresować i pozmniejszać zdjęcia
 
 pousuwać justowanie tekstów(?)
+
+dodać zdjecia do cross i duathlonu
+
+uatrakcyjnić opis duathlonu
 
 
 DODATKOWE
