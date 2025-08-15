@@ -18,10 +18,6 @@ pokompresować i pozmniejszać zdjęcia
 
 pousuwać justowanie tekstów(?)
 
-dodać zdjecia do cross i duathlonu
-
-uatrakcyjnić opis duathlonu
-
 
 DODATKOWE
 
@@ -30,3 +26,5 @@ przyjazne linki
 customowa strona 404
 
 optymalizacyjne wpisy do head
+
+uatrakcyjnić opis duathlonu
