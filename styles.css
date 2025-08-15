@@ -352,6 +352,17 @@ body {
   	list-style-type: disc;
 }
 
+.li-generic {
+	padding-left: 0.75rem;
+}
+
+.small-inside-paragraph-arrow {
+	padding-left: 1rem;
+	padding-right: 1rem;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
 
 /*Important Info*/
 .important-info-wrapper {
@@ -1604,7 +1615,7 @@ body {
 .wydarzenia-see-more-header {
 	margin-left: auto;
 	margin-right: auto;
-	font-size: 1.45rem;
+	font-size: 1.3rem;
 	font-weight: 700;
 }
 
@@ -1672,4 +1683,19 @@ body {
 	color: #ffffff;
 	text-decoration: none;
 	filter: brightness(85%);
+}
+
+/*Eye cathing text*/
+
+.eye-catching-text-container {
+	margin-top: 3rem;
+	margin-bottom: 2rem;
+}
+
+.eye-catching-text {
+	font-size: 1.05rem;
+	font-weight: 700;
+	margin: 0;
+	text-align: center;
+	color: #009246;
 }
