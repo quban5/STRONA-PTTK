@@ -87,6 +87,7 @@
 /* Basic Styling */
 .body {
 	font-family: Lato;
+	min-height: 100vh;
 }
 
 .outer-wrapper {
@@ -1407,12 +1408,12 @@ body {
 
 .calendar-row-contrast {
 	width: 100%;
-	background-color: #eff1ff;
+	background-color: #f0f3f0;
 }
 
 .calendar-row-white {
 	width: 100%;
-	background-color: #f7f9ff;
+	background-color: #ffffff;
 }
 
 .calendar-row-wrapper {
@@ -1715,4 +1716,70 @@ body {
 	margin: 0;
 	text-align: center;
 	color: #009246;
+}
+
+/* Mobile */
+
+@media (width <= 1040px) {
+	.menu-container {
+		display: none !important;
+	}
+
+	.hamburger-menu {
+		display: flex;
+	}
+}
+
+@media (width > 1040px) {
+	.hamburger-menu {
+		display: none;
+	}
+}
+
+.sidebar {
+	margin: 0;
+	padding: 0;
+	position: fixed;
+	top: 0;
+	right: 0;
+	height: 100vh;
+	width: 250px;
+	z-index: 999;
+	background-color: #ffffff;
+	box-shadow: 0px 0px 9px 6px rgba(0, 0, 0, 0.1);
+	list-style: none;
+	display: none;
+	justify-content: flex-start;
+	align-items: flex-start;
+	flex-direction: column;
+}
+
+.li-sidebar {
+	width: 100%;
+}
+
+.a-sidebar {
+	color: #000000;
+	text-decoration: none;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+	padding-left: 2rem;
+	margin-top: 0.5rem;
+	margin-bottom: 0.5rem;
+	display: block; 
+}
+
+.hamburger-menu {
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+}
+
+.x-button {
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+	padding-left: 2rem;
+	margin-top: 0.5rem;
+	margin-bottom: 0.5rem;
+	cursor: pointer;
 }

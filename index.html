@@ -36,8 +36,13 @@
 <body class="body">
 	<div class="body-background-color">
 		<nav class="navigation-bar">
+			<ul class="sidebar">
+				<li class="li-sidebar" onclick=hideSidebar()><svg class="x-button" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></li>
+				<li class="li-sidebar"><a class="a-sidebar" href="odznaki.html">Odznaki</a></li>
+				<li class="li-sidebar"><a class="a-sidebar" href="kontakt.html">Kontakt</a></li>
+				<li class="li-sidebar"><a class="a-sidebar" href="linki.html">Linki</a></li>
+			</ul>
 			<div class="navigation-bar-content">
-
 				<div class="logo-container-background-hover">
 					<a class="logo-homepage-link" href="index.html">
 						<div class="logo-container">
@@ -46,7 +51,6 @@
 						</div>
 					</a>
 				</div>
-
 				<div class="menu-container">
 					<ul class="menu-ul">
 
@@ -77,6 +81,9 @@
 						<li class="li-category"><a class="menu-link-higher" href="kontakt.html">Kontakt</a></li>
 						<li class="li-category"><a class="menu-link-higher" href="linki.html">Linki</a></li>
 					</ul>
+				</div>
+				<div class="hamburger-menu-container" onclick=showSidebar()>
+					<div class="hamburger-menu"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></div>
 				</div>
 			</div>
 		</nav>
@@ -453,5 +460,15 @@
 			</div>
 		</div>
 </footer>
+<script>
+	function showSidebar(){
+		const sidebar = document.querySelector('.sidebar')
+		sidebar.style.display = 'flex';
+	}
+	function hideSidebar(){
+		const sidebar = document.querySelector('.sidebar')
+		sidebar.style.display = 'none';
+	}
+</script>
 </body>
 </html>
