@@ -14,10 +14,17 @@ function toggleDropdown(button) {
   }
 }
 
+const sidebar = document.querySelector('.sidebar');
+const overlay = document.querySelector('.overlay');
+
 function showSidebar() {
-  document.querySelector('.sidebar').classList.add('show');
+  sidebar.classList.add('show');
+  overlay.classList.add('show');
 }
 
 function hideSidebar() {
-  document.querySelector('.sidebar').classList.remove('show');
+  sidebar.classList.remove('show');
+  overlay.classList.remove('show');
 }
+
+overlay.addEventListener('click', hideSidebar);
