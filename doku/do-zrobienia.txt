@@ -22,15 +22,9 @@ dodać plakat do buttona rajd bushcrat
 
 zmniejszyc logo tobartus
 
-animacja otwierania i zamykania sidebara
+dodac overlay przyciemniony gdy sie otwiera sidebar
 
-poprawic hover elementów w sidebarze
-
-hover hamburger menu i x
-
-transition ease do hoverow elementow
-
-rozwijana lista wydarzen itd.
+wyrownac x do elementow innych?
 
 
 DODATKOWE
