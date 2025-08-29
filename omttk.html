@@ -30,14 +30,52 @@
 	<meta name="twitter:title" content="Oddział PTTK "Szaniec"">
 	<meta name="twitter:description" content="Aktualności, wydarzenia, odznaki i wiele więcej!">
 	<meta name="twitter:image" content="static/img/og_image.png">
+	
+	<script type="text/javascript" src="scripts/scripts.js" defer></script>
 </head>
 
 
 <body class="body">
 	<div class="body-background-color">
 		<nav class="navigation-bar">
+			<ul class="sidebar">
+				<li class="li-sidebar" onclick=hideSidebar()><div class="x-button-container"><button class="x-button"><svg class="x-svg" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></button></div></li>
+				<li class="li-sidebar">
+					<button onclick=toggleDropdown(this) class="sidebar-dropdown-category-button">
+						<span class="span-sidebar-dropdown">O nas</span>
+						<svg class="svg-sidebar-dropdown" xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="M480-357.85 253.85-584 296-626.15l184 184 184-184L706.15-584 480-357.85Z"/></svg>
+					</button>
+					<ul class="ul-sidebar-dropdown">
+						<div>
+							<li class="li-sidebar-dropdown"><a class="a-sidebar-dropdown" href="historia.html">Historia</a></li>
+							<li class="li-sidebar-dropdown"><a class="a-sidebar-dropdown" href="wladze.html">Władze oddziału</a></li>
+							<li class="li-sidebar-dropdown"><a class="a-sidebar-dropdown" href="przewodnicy.html">Przewodnicy</a></li>
+							<li class="li-sidebar-dropdown"><a class="a-sidebar-dropdown" href="kola.html">Koła</a></li>
+						</div>
+					</ul>
+				</li>
+				<li class="li-sidebar">
+					<button onclick=toggleDropdown(this) class="sidebar-dropdown-category-button">
+						<span class="span-sidebar-dropdown">Wydarzenia</span>
+						<svg class="svg-sidebar-dropdown" xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="M480-357.85 253.85-584 296-626.15l184 184 184-184L706.15-584 480-357.85Z"/></svg>
+					</button>
+					<ul class="ul-sidebar-dropdown">
+						<div>
+							<li class="li-sidebar-dropdown"><a class="a-sidebar-dropdown" href="wydarzenia-kajakowe.html">Kajakowe</a></li>
+							<li class="li-sidebar-dropdown"><a class="a-sidebar-dropdown" href="wydarzenia-piesze.html">Piesze</a></li>
+							<li class="li-sidebar-dropdown"><a class="a-sidebar-dropdown" href="wydarzenia-rowerowe.html">Rowerowe</a></li>
+							<li class="li-sidebar-dropdown"><a class="a-sidebar-dropdown" href="omttk.html">OMTTK</a></li>
+							<li class="li-sidebar-dropdown"><a class="a-sidebar-dropdown" href="omttk.html">Cross Triathlon i Duathlon Kids</a></li>
+							<li class="li-sidebar-dropdown"><a class="a-sidebar-dropdown" href="rajd-bushcraft.html">Rodzinny Rajd Turystyczno-Bushcraftowy</a></li>
+							<li class="li-sidebar-dropdown"><a class="a-sidebar-dropdown" href="kalendarz-imprez.html">Kalendarz imprez</a></li>
+						</div>
+					</ul>
+				</li>
+				<li class="li-sidebar"><a class="a-sidebar" href="odznaki.html">Odznaki</a></li>
+				<li class="li-sidebar"><a class="a-sidebar" href="kontakt.html">Kontakt</a></li>
+				<li class="li-sidebar"><a class="a-sidebar" href="linki.html">Linki</a></li>
+			</ul>
 			<div class="navigation-bar-content">
-
 				<div class="logo-container-background-hover">
 					<a class="logo-homepage-link" href="index.html">
 						<div class="logo-container">
@@ -46,7 +84,6 @@
 						</div>
 					</a>
 				</div>
-
 				<div class="menu-container">
 					<ul class="menu-ul">
 
@@ -78,6 +115,9 @@
 						<li class="li-category"><a class="menu-link-higher" href="linki.html">Linki</a></li>
 					</ul>
 				</div>
+				<button class="hamburger-menu-container" onclick=showSidebar()>
+					<div class="hamburger-menu"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></div>
+				</button>
 			</div>
 		</nav>
 
@@ -95,37 +135,27 @@
 						</div>
 						<div class="kolo-title-container">
 							<h2 class="wydarzenie-title">
-								Wyjątkowa przygoda dla każdego
+								Nauka przez zabawę i rywalizację
 							</h2>
 						</div>
 						<div class="kolo-description-paragraph-container">
 							<p class="kolo-description-paragraph">
-								Oddział PTTK „Szaniec” w Skierniewicach zaprasza wszystkich entuzjastów przygód i aktywnego wypoczynku do udziału w Rodzinnym Rajdzie Turystyczno-Bushcraftowym. To wyjątkowa okazja, by w gronie najbliższych spędzić czas <b class="article-bold">w otoczeniu natury, ucząc się nowych umiejętności, odkrywając ciekawe miejsca i czerpiąc radość z turystycznych wędrówek</b>.
+								OMTTK PTTK to wyjątkowe wydarzenie, które nieprzerwanie organizowane jest od 1972 roku. To już kilkadziesiąt edycji, podczas których kolejne pokolenia młodzieży szkolnej mogą sprawdzić swoją wiedzę i umiejętności w dziedzinie turystyki i krajoznawstwa. Turniej skierowany jest do uczniów szkół podstawowych i ponadpodstawowych i od lat pozostaje jedną z najbardziej rozpoznawalnych imprez turystycznych dla młodzieży w Polsce.
 							</p>
 						</div>
 						<div class="kolo-description-paragraph-container">
 							<p class="kolo-description-paragraph">
-								Podczas rajdu uczestnicy będą mogli wziąć udział w <b class="article-bold">pogadankach przyrodniczych</b> na trasie, które pozwolą lepiej poznać przyrodę naszego regionu oraz dobre zasady turystyki. Nie zabraknie również <b class="article-bold">warsztatów bushcraftowych</b>, podczas których w praktyce będzie można dowiedzieć się, jak radzić sobie w terenie. Na uczestników czekają także przystępne <b class="article-bold">zajęcia z topografii</b> w atrakcyjny sposób wprowadzające w tajniki orientacji w terenie. Całość rajdu odbędzie się zgodnie z zasadą <b class="article-bold">„leave no trace”</b>, czyli z szacunkiem do przyrody i bez pozostawiania po sobie śladów.
+								Rywalizacja odbywa się w <b class="article-bold">trzyosobowych drużynach</b> i obejmuje sześć głównych konkurencji oraz kilka dodatkowych. Uczestnicy mierzą się z zadaniami wymagającymi znajomości terenu, zasad udzielania pierwszej pomocy, a także rozpoznawania roślin, zwierząt i zabytków. W każdej konkurencji nagradzane są także osiągnięcia indywidualne, a najlepsi uczestnicy zdobywają laury w swoich kategoriach.
 							</p>
 						</div>
 						<div class="kolo-description-paragraph-container">
 							<p class="kolo-description-paragraph">
-								Na koniec każdego rajdu odbywa się <b class="article-bold">wspólne ognisko</b>. Będzie to okazja do wysłuchania inspirujących opowieści oraz rozmów o przyrodzie, historii i turystycznych przygodach. To również moment na podsumowanie wiadomości zdobytych w czasie rajdu, wymianę doświadczeń i wspólne spędzenie czasu w miłej atmosferze.
+								Turniej to jednak nie tylko sprawdzian wiedzy. To przede wszystkim okazja, <b class="article-bold">by lepiej poznawać piękno Ziemi Ojczystej, jej historię i współczesność, a także promować turystykę i krajoznawstwo jako ciekawą formę aktywnego wypoczynku</b>. OMTTK pomaga młodym ludziom odkrywać walory przyrodnicze i kulturowe różnych regionów Polski, zachęca do dalszych wędrówek i rozwijania turystycznej pasji. To również znakomita szansa na wymianę doświadczeń i zawarcie nowych znajomości.
 							</p>
 						</div>
 						<div class="kolo-description-paragraph-container">
 							<p class="kolo-description-paragraph">
-								Dodatkową atrakcją jest <b class="article-bold">wyjątkowy gadżet</b> związany z tematyką warsztatów, który otrzyma każdy uczestnik rajdu – mała pamiątka przypominająca o wspólnych przeżyciach i zdobytej wiedzy.
-							</p>
-						</div>
-						<div class="kolo-title-container">
-							<h2 class="wydarzenie-title">
-								Odznaka turystyczno-bushcraftowa
-							</h2>
-						</div>
-						<div class="kolo-description-paragraph-container">
-							<p class="kolo-description-paragraph">
-								Za uczestnictwo w każdym z etapów Rodzinnego Rajdu Turystyczno-Bushcraftowego uczestnicy otrzymają <b class="article-bold">specjalną odznakę</b>. Składa się ona z pięciu elementów, które tworzą jedną dużą, unikatową całość. Każdy fragment odznaki zdobywa się na osobnym rajdzie, a poszczególne jej części związane są z inną umiejętnością – od rozpalania ogniska w terenie, przez pozyskiwanie wody i pożywienia, aż po budowanie schronienia. Warto wziąć udział w każdej edycji i skompletować całą odznakę. A przede wszystkim, stopniowo rozwijać swoje kompetencje w duchu bushcraftu i turystyki rodzinnej.
+								Każdego roku finał centralny odbywa się w innym województwie, a jego program zawsze podkreśla wyjątkowe walory danego regionu. Dzięki temu uczestnicy mogą nie tylko rywalizować, ale i poznawać zupełenie nowe miejsca.
 							</p>
 						</div>
 					</div>
