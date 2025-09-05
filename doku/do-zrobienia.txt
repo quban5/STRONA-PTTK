@@ -26,6 +26,14 @@ dodac overlay przyciemniony gdy sie otwiera sidebar
 
 wyrownac x do elementow innych?
 
+dodac odznake bushcraftowa do odznaki.html
+
+koło sosenka do kół
+
+klub Piasta do kół
+
+naprawic scroll w bok strony
+
 
 DODATKOWE
 
