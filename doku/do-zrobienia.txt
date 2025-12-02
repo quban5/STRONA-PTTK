@@ -1,3 +1,6 @@
+baner do przepisania
+przewodnicy naglowki do naprawienai
+
 wyczyscic gluche linki
 
 zeby kazda odznaka przekierowywala do odznaki.html ale odpowiednio przescrollowane
@@ -16,13 +19,9 @@ zoptymalizować ładowanie dalszych elementow stron
 
 pokompresować i pozmniejszać zdjęcia
 
-pousuwać justowanie tekstów(?)
-
 dodać plakat do buttona rajd bushcrat
 
 zmniejszyc logo tobartus
-
-dodac overlay przyciemniony gdy sie otwiera sidebar
 
 wyrownac x do elementow innych?
 
@@ -32,7 +31,7 @@ koło sosenka do kół
 
 klub Piasta do kół
 
-naprawic scroll w bok strony
+poprawic wyswietlanie zdjec nierowno na stronie glownej
 
 
 DODATKOWE

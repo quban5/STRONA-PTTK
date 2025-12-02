@@ -91,6 +91,7 @@ html {
 .body {
 	font-family: Lato;
 	min-height: 100vh;
+	overflow-x: hidden;
 }
 
 .outer-wrapper {
@@ -352,7 +353,6 @@ body {
 	margin-top: 0;
 	margin-bottom: 0;
 	line-height: 150%;
-	text-align: justify;
   	list-style-type: disc;
 }
 
@@ -428,6 +428,7 @@ body {
 
 .important-info-icon-span-wrapper {
 	display: flex;
+	align-items: center;
 }
 
 .important-info-icon-container {
@@ -451,6 +452,7 @@ body {
 	padding-right: 1rem;
 	padding-top: 0.9rem;
 	padding-bottom: 0.9rem;
+	text-align: right;
 }
 
 
@@ -603,7 +605,6 @@ body {
 
 .article-image {
 	object-fit: cover;
-	overflow-clip-margin: unset;
 	width: 100%;
 	height: 12rem;
 	position: relative;
@@ -640,13 +641,11 @@ body {
 .article-lead {
 	font-weight: 700;
 	font-size: 1rem;
-	text-align: justify;
 }
 
 .article-text {
 	font-weight: 400;
 	font-size: 0.9rem;
-	text-align: justify;
 }
 
 .article-bold {
@@ -1061,7 +1060,6 @@ body {
 	font-size: 1rem;
 	margin-top: 0;
 	margin-bottom: 2rem;
-	text-align: justify;
 	line-height: 150%;
 }
 
@@ -1148,7 +1146,6 @@ body {
 	font-size: 1rem;
 	margin-top: 0;
 	margin-bottom: 0;
-	text-align: justify;
 }
 
 .wladze-title-container {
@@ -1175,6 +1172,8 @@ body {
 /*ODZNAKI VALUES*/
 
 .odznaka-block {
+	display: flex;
+	justify-content: center;
 	background-color: #ffffff;
 	border-radius: 24px;
 	box-shadow: 0px 0px 9px 6px rgba(0, 0, 0, 0.1);
@@ -1187,12 +1186,16 @@ body {
 
 .odznaka-wrapper {
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
-	padding: 1rem;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	padding-right: 2.5rem;
+	padding-left: 2.5rem;
+	max-width: 700px;
 }
 
 .odznaka-photo {
-	margin: auto;
 	width: 33%;
 }
 
@@ -1208,7 +1211,6 @@ body {
 
 .odznaka-text {
 	margin: auto;
-	width: 66%;
 }
 
 .odznaka-title {
@@ -1260,13 +1262,11 @@ body {
 .odznaka-info-description {
 	font-size: 1rem;
 	line-height: 150%;
-	text-align: justify;
 }
 
 .odznaka-list {
 	line-height: 150%;
 	padding-left: 2rem;
-	text-align: justify;
 	list-style-type: disc;
 }
 
@@ -1339,7 +1339,6 @@ body {
 	font-size: 1rem;
 	margin-top: 0;
 	margin-bottom: 1.5rem;
-	text-align: justify;
 }
 
 .guides-contact-container {
@@ -1363,7 +1362,6 @@ body {
 	font-size: 1rem;
 	margin-top: 0;
 	margin-bottom: 0.3rem;
-	text-align: justify;
 }
 
 
@@ -1536,7 +1534,6 @@ body {
 	padding-top: 0;
 	margin-bottom: 1rem;
 	line-height: 150%;
-	text-align: justify;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -1582,7 +1579,6 @@ body {
 	padding-top: 0;
 	margin-bottom: 0;
 	line-height: 150%;
-	text-align: justify;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -1756,6 +1752,154 @@ body {
 
 	.important-info-mobile {
 		display: flex;
+	}
+
+	.homepage-banner-image-text-span {
+		font-size: 1.2rem;
+	}
+
+	.homepage-banner-logo {
+		max-height: 7rem;
+	}
+
+	.article-image-container {
+		padding-bottom: 2rem;
+		padding-right: 0;
+		width: 100%;
+	}
+
+	.article-content-container {
+		width: 100%;
+	}
+
+	.article-wrapper {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		padding-right: 2.5rem;
+		padding-left: 2.5rem;
+		padding-top: 1.9rem;
+		padding-bottom: 1.9rem;
+	}
+
+	.article-content {
+		padding: 0;
+		font-family: Lato;
+		line-height: 150%;
+	}
+
+	.events-container {
+		flex-direction: column;
+	}
+
+	.event {
+		margin-bottom: 2rem;
+		margin-right: 0;
+	}
+
+	.event:first-of-type {
+		margin-bottom: 2rem;
+		margin-right: 0;
+	}
+
+	.event:last-of-type {
+		margin-bottom: 0;
+		margin-left: 0;
+	}
+
+	.event-chronotex-mobile {
+		box-shadow: 0px 0px 9px 6px rgba(0, 0, 0, 0.1);
+		border-radius: 24px;
+		flex: 1 1 0px;
+		background-color: #f07e01;
+		transition: all 0.25s ease;
+		margin-bottom: 2rem;
+		margin-right: 0;
+	}
+
+	.partner-image-chronotex {
+		object-fit: contain;
+		height: 9rem;
+		padding-top: 1rem;
+		padding-bottom: 1rem;
+	}
+
+	.partner-image {
+		object-fit: contain;
+		height: 9rem;
+		padding-top: 1rem;
+		padding-bottom: 1rem;
+	}
+	.partner-image-tobartus {
+		object-fit: contain;
+		height: 9rem;
+		padding-top: 1rem;
+		padding-bottom: 1rem;
+	}
+
+	.footer-content {
+		flex-direction: column;
+		justify-content: left;
+		padding-top: 2rem;
+	}
+
+	.site-map {
+		flex-direction: column;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+
+	.site-map-list {
+		margin-top: 1rem;
+	}
+
+	.site-map-list-container {
+		margin-right: 0;
+		margin-bottom: 2rem;
+	}
+
+	.footer-szaniec-info-container {
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+
+	.site-map-list-item-link:hover {
+		font-size: 0.9rem;
+	}
+
+	.site-map-list-item-link {
+		font-size: 0.9rem;
+	}
+
+	.wladze-block {
+		width: 90%;
+	}
+	
+	.wladze-main-container {
+		flex-direction: column;
+	}
+
+	.guides-main-container {
+		flex-flow: column wrap;
+	}
+
+	.guides-block {
+		width: 90%;
+	}
+
+	.kolo-description-container {
+		padding-left: 2.5rem;
+		padding-right: 2.5rem;
+	}
+
+	.wydarzenia-description-container {
+		padding-left: 2.5rem;
+		padding-right: 2.5rem;
+	}
+
+	.odznaka-wrapper {
+		padding-left: 2.5rem;
+		padding-right: 2.5rem;
 	}
 }
 
