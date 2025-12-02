@@ -1320,7 +1320,6 @@ body {
 }
 
 .guides-title-container {
-	margin-bottom: 0.5rem;
 	height: 2rem;
 	display: flex;	
 }
@@ -1337,7 +1336,7 @@ body {
 
 .guides-description {
 	font-size: 1rem;
-	margin-top: 0;
+	margin-top: 1.5rem;
 	margin-bottom: 1.5rem;
 }
 
@@ -1636,6 +1635,7 @@ body {
 	margin-right: auto;
 	font-size: 1.3rem;
 	font-weight: 700;
+	text-align: center;
 }
 
 .wydarzenia-see-more-buttons-wrapper {
@@ -1738,6 +1738,11 @@ body {
 /* Mobile */
 
 @media (width <= 1040px) {
+	.outer-wrapper {
+		padding-left: 1rem;
+		padding-right: 1rem;
+	}
+	
 	.menu-container {
 		display: none !important;
 	}
@@ -1758,8 +1763,12 @@ body {
 		font-size: 1.2rem;
 	}
 
+	.homepage-banner-image-text-top {
+		bottom: 2.7rem;
+	}
+
 	.homepage-banner-logo {
-		max-height: 7rem;
+		max-height: 5rem;
 	}
 
 	.article-image-container {
@@ -1807,14 +1816,8 @@ body {
 		margin-left: 0;
 	}
 
-	.event-chronotex-mobile {
-		box-shadow: 0px 0px 9px 6px rgba(0, 0, 0, 0.1);
-		border-radius: 24px;
-		flex: 1 1 0px;
+	.partner-image-chronotex {
 		background-color: #f07e01;
-		transition: all 0.25s ease;
-		margin-bottom: 2rem;
-		margin-right: 0;
 	}
 
 	.partner-image-chronotex {
@@ -1835,6 +1838,66 @@ body {
 		height: 9rem;
 		padding-top: 1rem;
 		padding-bottom: 1rem;
+	}
+
+	.buttons-container {
+		flex-direction: column;
+	}
+
+	.link-button-container-2n {
+		margin-bottom: 0.5rem;
+	}
+
+	.link-button-container-2n:last-of-type {
+		margin-bottom: 0rem;
+	}
+	
+	.link-button-container-3n {
+		margin-right: 0;
+		margin-top: 0;
+		margin-bottom: 0.5rem;
+	}
+
+	.link-button-container-3n:last-of-type {
+		margin-bottom: 0;
+	}
+
+	.contact-details-main-container {
+		justify-content: flex-start;
+		flex-direction: column;
+	}
+
+	.contact-details-container {
+		margin-bottom: 2.5rem;
+	}
+
+	.contact-details-container:last-of-type {
+		margin-bottom: 0;
+	}
+
+	.contact-details-heading-icon-container {
+		padding-bottom: 0;
+	}
+
+	.contact-map-photo-container {
+		flex-direction: column;
+	}
+
+	.contact-map-container {
+		width: 100%;
+		margin-bottom: 2rem;
+	}
+
+	.contact-building-photo-container {
+		width: 100%;
+	}
+
+	.links-main-container {
+		flex-direction: column;
+	}
+
+	.link-block {
+		width: 100%;
 	}
 
 	.footer-content {
@@ -1900,6 +1963,10 @@ body {
 	.odznaka-wrapper {
 		padding-left: 2.5rem;
 		padding-right: 2.5rem;
+	}
+
+	.calendar-main-container {
+		padding: 1rem;
 	}
 }
 
