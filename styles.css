@@ -434,7 +434,7 @@ body {
 .important-info-icon-container {
 	display: flex;
 	align-items: center;
-	padding-left: 1rem;
+	padding-left: 2rem;
 }
 
 .important-info-icon {
@@ -448,11 +448,11 @@ body {
 
 .important-info-span {
 	font-size: 0.8rem;
-	padding-left: 0.8rem;
+	padding-left: 1rem;
 	padding-right: 1rem;
 	padding-top: 0.9rem;
 	padding-bottom: 0.9rem;
-	text-align: right;
+	text-align: left;
 }
 
 
