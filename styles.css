@@ -306,6 +306,10 @@ body {
 	line-height: 1.5rem;
 	text-align: left;
 	transition: all 0.25s ease;
+		text-decoration: underline;
+	text-decoration-thickness: 0.2rem;
+	text-decoration-color: #ffffff;
+	text-underline-offset: 0.29rem;
 }
 
 .li-category-higher-expandable:hover > .ul-category-expanded {
