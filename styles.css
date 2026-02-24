@@ -1537,6 +1537,9 @@ body {
 	line-height: 150%;
 	margin-left: auto;
 	margin-right: auto;
+	orphans: 2;
+	widows: 2;
+	text-wrap: pretty;
 }
 
 .kolo-description-paragraph:last-of-type {
@@ -1555,6 +1558,19 @@ body {
 	font-weight: 700;
 	color: #009246;
 	padding-top: 1.5rem;
+	padding-right: 0;
+	padding-bottom: 0;
+	margin-bottom: 0.1rem;
+	margin-top: 0;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.wydarzenie-subtitle {
+	font-size: 1.3rem;
+	font-weight: 700;
+	color: #009246;
+	padding-top: 3rem;
 	padding-right: 0;
 	padding-bottom: 0;
 	margin-bottom: 0.1rem;
@@ -1586,6 +1602,8 @@ body {
 	line-height: 150%;
 	margin-left: auto;
 	margin-right: auto;
+	orphans: 2;
+	text-wrap: pretty;
 }
 
 .wydarzenia-description-container {
@@ -1724,6 +1742,16 @@ body {
 .wydarzenia-see-more-button-container-single {
 	margin-left: auto;
 	margin-right: auto;
+}
+
+.image-article-container-no-bottom-padding {
+	display: flex;
+	margin-top: 1.5rem;
+}
+
+.image-article {
+	max-height: 15rem;
+	object-fit: contain;
 }
 
 /*Eye cathing text*/
