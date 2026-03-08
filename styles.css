@@ -1205,7 +1205,7 @@ body {
 }
 
 .odznaka-photo {
-	width: 33%;
+	align-self: flex-start;
 }
 
 .odznaka-image-container {
@@ -2028,6 +2028,10 @@ body {
 
 	.wydarzenia-see-more-button-container:last-of-type {
 		margin-bottom: 0;
+	}
+
+	.odznaka-image {
+		max-height: 7rem;
 	}
 }
 
