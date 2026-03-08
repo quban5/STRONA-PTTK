@@ -909,7 +909,11 @@ body {
 
 .copyright-text {
 	font-size: 0.7rem;
-	color: #003e1d
+	color: #003e1d;
+	display: block;
+	text-align: center;
+	margin-left: 0.75rem;
+	margin-right: 0.75rem;
 }
 
 
