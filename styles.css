@@ -1614,8 +1614,8 @@ body {
 	margin-right: auto;
 	padding-top: 2rem;
 	padding-bottom: 2rem;
-	padding-left: 1.1rem;
-	padding-right: 1.1rem;
+	padding-left: min(2rem, 7%);
+	padding-right: min(2rem, 7%);
 }
 
 /*Wydarzenia see more with buttons*/
@@ -1752,6 +1752,7 @@ body {
 .image-article {
 	max-height: 15rem;
 	object-fit: contain;
+	width: 100%;
 }
 
 /*Eye cathing text*/
@@ -1985,11 +1986,6 @@ body {
 	}
 
 	.kolo-description-container {
-		padding-left: 2.5rem;
-		padding-right: 2.5rem;
-	}
-
-	.wydarzenia-description-container {
 		padding-left: 2.5rem;
 		padding-right: 2.5rem;
 	}
