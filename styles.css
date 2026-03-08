@@ -1780,6 +1780,13 @@ body {
 /* Mobile */
 
 @media (width <= 1040px) {
+	#main-wrapper,
+	.navigation-bar-content,
+	.footer-wrapper,
+	.footer-content {
+		max-width: 550px;
+	}	
+
 	.outer-wrapper {
 		padding-left: 1rem;
 		padding-right: 1rem;
@@ -2000,6 +2007,14 @@ body {
 		padding: 1rem;
 	}
 
+	.calendar-description-text {
+		font-size: 1rem;
+	}
+
+	.calendar-cell-text {
+		font-size: 0.75rem;
+	}
+
 	.wydarzenia-see-more-buttons-wrapper {
 		flex-direction: column;
 	}
@@ -2013,6 +2028,20 @@ body {
 
 	.wydarzenia-see-more-button-container:last-of-type {
 		margin-bottom: 0;
+	}
+}
+
+@media (width <= 370px) {
+	.homepage-banner-image-text-span {
+		font-size: 1.1rem;
+	}
+
+	.homepage-banner-image-text-top {
+		bottom: 2.4rem;
+	}
+
+	.homepage-banner-logo {
+		max-height: 4rem;
 	}
 }
 
