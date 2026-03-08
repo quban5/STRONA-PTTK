@@ -1995,6 +1995,21 @@ body {
 	.calendar-main-container {
 		padding: 1rem;
 	}
+
+	.wydarzenia-see-more-buttons-wrapper {
+		flex-direction: column;
+	}
+
+	.wydarzenia-see-more-button-container {
+		display: flex;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 1rem;
+	}
+
+	.wydarzenia-see-more-button-container:last-of-type {
+		margin-bottom: 0;
+	}
 }
 
 @media (width > 1040px) {
