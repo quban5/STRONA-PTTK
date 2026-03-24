@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
+	<meta keywords="pttk, oddzial, szaniec, skierniewice, turystyka">
+	<meta name="description" content="Aktualności, wydarzenia, nasze odznaki, kontakt, historia, władze oddziału i więcej. Wszystko o Skierniewickim Oddziale Szaniec." />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta name="author" content="Jakub Kowalski" />
+	<link rel="preload" href="styles.css" as="style" />
+	<link rel="preload" href="static/img/logo.png" as="image" />
+	<link rel="stylesheet" href="styles.css" type="text/css">
+	<link rel="apple-touch-icon" sizes="180x180" href="static/favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="static/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="static/favicon/favicon-16x16.png">
+	<link rel="manifest" href="static/favicon/site.webmanifest">
+
+	<title>
+		OMTTK | Oddział PTTK "Szaniec"
+	</title>
+
+	<meta property="og:url" content="https://szaniec.pttk.pl/">
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="Oddział PTTK "Szaniec"">
+	<meta property="og:description" content="Aktualności, wydarzenia, odznaki i wiele więcej!">
+	<meta property="og:image" content="static/img/og_image.png">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta property="twitter:domain" content="szaniec.pttk.pl">
+	<meta property="twitter:url" content="https://szaniec.pttk.pl/">
+	<meta name="twitter:title" content="Oddział PTTK "Szaniec"">
+	<meta name="twitter:description" content="Aktualności, wydarzenia, odznaki i wiele więcej!">
+	<meta name="twitter:image" content="static/img/og_image.png">
+	
+	<script type="text/javascript" src="scripts/scripts.js" defer></script>
+</head>
+
+
+<body class="body">
+	<div class="body-background-color">
+		<nav class="navigation-bar">
+			<ul class="sidebar">
+				<li class="li-sidebar" onclick=hideSidebar()><div class="x-button-container"><button class="x-button"><svg class="x-svg" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></button></div></li>
+				<li class="li-sidebar">
+					<button onclick=toggleDropdown(this) class="sidebar-dropdown-category-button">
+						<span class="span-sidebar-dropdown">O nas</span>
+						<svg class="svg-sidebar-dropdown" xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="M480-357.85 253.85-584 296-626.15l184 184 184-184L706.15-584 480-357.85Z"/></svg>
+					</button>
+					<ul class="ul-sidebar-dropdown">
+						<div>
+							<li class="li-sidebar-dropdown"><a class="a-sidebar-dropdown" href="historia.html">Historia</a></li>
+							<li class="li-sidebar-dropdown"><a class="a-sidebar-dropdown" href="wladze.html">Władze oddziału</a></li>
+							<li class="li-sidebar-dropdown"><a class="a-sidebar-dropdown" href="przewodnicy.html">Przewodnicy</a></li>
+							<li class="li-sidebar-dropdown"><a class="a-sidebar-dropdown" href="kola.html">Koła</a></li>
+						</div>
+					</ul>
+				</li>
+				<li class="li-sidebar">
+					<button onclick=toggleDropdown(this) class="sidebar-dropdown-category-button">
+						<span class="span-sidebar-dropdown">Wydarzenia</span>
+						<svg class="svg-sidebar-dropdown" xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="M480-357.85 253.85-584 296-626.15l184 184 184-184L706.15-584 480-357.85Z"/></svg>
+					</button>
+					<ul class="ul-sidebar-dropdown">
+						<div>
+							<li class="li-sidebar-dropdown"><a class="a-sidebar-dropdown" href="wydarzenia-kajakowe.html">Kajakowe</a></li>
+							<li class="li-sidebar-dropdown"><a class="a-sidebar-dropdown" href="wydarzenia-piesze.html">Piesze</a></li>
+							<li class="li-sidebar-dropdown"><a class="a-sidebar-dropdown" href="wydarzenia-rowerowe.html">Rowerowe</a></li>
+							<li class="li-sidebar-dropdown"><a class="a-sidebar-dropdown" href="omttk.html">OMTTK</a></li>
+							<li class="li-sidebar-dropdown"><a class="a-sidebar-dropdown" href="triathlon-duathlon.html">Cross Triathlon i Duathlon Kids</a></li>
+							<li class="li-sidebar-dropdown"><a class="a-sidebar-dropdown" href="rajd-bushcraft.html">Rodzinny Rajd Turystyczno-Bushcraftowy</a></li>
+							<li class="li-sidebar-dropdown"><a class="a-sidebar-dropdown" href="kalendarz-imprez.html">Kalendarz imprez</a></li>
+						</div>
+					</ul>
+				</li>
+				<li class="li-sidebar"><a class="a-sidebar" href="odznaki.html">Odznaki</a></li>
+				<li class="li-sidebar"><a class="a-sidebar" href="kontakt.html">Kontakt</a></li>
+				<li class="li-sidebar"><a class="a-sidebar" href="linki.html">Linki</a></li>
+				<li class="li-sidebar">
+					<a class="important-info-link-mobile" href="https://www.skierniewice.lodz.lasy.gov.pl">
+						<div class="important-info-institution-mobile">
+							<div class="important-info-icon-span-wrapper">
+								<div class="important-info-icon-container">
+									<img class="important-info-icon" src="static/img/logolp.svg" alt="Logo Lasy Państwowe">
+								</div>
+								<div class="important-info-span-container">
+									<span class="important-info-span">LP Nadleśnictwo Skierniewice</span>
+								</div>
+							</div>
+						</div>
+					</a>
+				</li>
+				<li class="li-sidebar">
+					<a class="important-info-link-mobile" href="https://parkilodzkie.pl/bpk">
+						<div class="important-info-institution-mobile">
+							<div class="important-info-icon-span-wrapper">
+								<div class="important-info-icon-container">
+									<img class="important-info-icon" src="static/img/bpklogo.jpeg" alt="Logo Lasy Państwowe">
+								</div>
+								<div class="important-info-span-container">
+									<span class="important-info-span">Bolimowski Park Krajobrazowy</span>
+								</div>
+							</div>
+						</div>
+					</a>
+				</li>
+				<li class="li-sidebar">
+					<a class="important-info-link-mobile" href="static/docs/Standardy-Ochrony-Maloletnich-PTTK-Szaniec-wersja-skrocona.pdf">
+						<div class="important-info-institution-mobile">
+							<div class="important-info-icon-span-wrapper">
+								<div class="important-info-icon-container">
+									<svg class="important-info-icon" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="M340-260h280v-40H340v40Zm0-160h280v-40H340v40Zm-75.38 300q-27.62 0-46.12-18.5Q200-157 200-184.62v-590.76q0-27.62 18.5-46.12Q237-840 264.62-840H580l180 180v475.38q0 27.62-18.5 46.12Q723-120 695.38-120H264.62ZM560-640v-160H264.62q-9.24 0-16.93 7.69-7.69 7.69-7.69 16.93v590.76q0 9.24 7.69 16.93 7.69 7.69 16.93 7.69h430.76q9.24 0 16.93-7.69 7.69-7.69 7.69-16.93V-640H560ZM240-800v160-160 640-640Z"/></svg>
+								</div>
+								<div class="important-info-span-container">
+									<span class="important-info-span">Standardy Ochrony Małoletnich</span>
+								</div>
+							</div>
+						</div>
+					</a>
+				</li>
+			</ul>
+			<div class="navigation-bar-content">
+				<div class="logo-container-background-hover">
+					<a class="logo-homepage-link" href="index.html">
+						<div class="logo-container">
+							<img class="logo-image" src="static/img/logo.png" alt="pttk-szaniec-logo">
+							<div class="logo-text-szaniec"><span>Szaniec</span></div>
+						</div>
+					</a>
+				</div>
+				<div class="menu-container">
+					<ul class="menu-ul">
+
+						<li class="li-category-higher-expandable">
+							<div class="li-category-span-arrow-container"><span class="li-category-span">O nas</span><i class="arrow-down"></i></div>
+							<ul class="ul-category-expanded">
+								<li class="li-category-expanded"><a class="menu-link-lower-expandable" href="historia.html">Historia</a></li>
+								<li class="li-category-expanded"><a class="menu-link-lower-expandable" href="wladze.html">Władze oddziału</a></li>
+								<li class="li-category-expanded"><a class="menu-link-lower-expandable" href="przewodnicy.html">Przewodnicy</a></li>
+								<li class="li-category-expanded"><a class="menu-link-lower-expandable" href="kola.html">Koła</a></li>
+							</ul>
+						</li>
+
+						<li class="li-category-higher-expandable">
+							<div class="li-category-span-arrow-container"><span class="li-category-span">Wydarzenia</span><i class="arrow-down"></i></div>
+							<ul class="ul-category-expanded">
+								<li class="li-category-expanded"><a class="menu-link-lower-expandable" href="wydarzenia-kajakowe.html">Kajakowe</a></li>
+								<li class="li-category-expanded"><a class="menu-link-lower-expandable" href="wydarzenia-piesze.html">Piesze</a></li>
+								<li class="li-category-expanded"><a class="menu-link-lower-expandable" href="wydarzenia-rowerowe.html">Rowerowe</a></li>
+								<li class="li-category-expanded"><a class="menu-link-lower-expandable" href="omttk.html">OMTTK</a></li>
+								<li class="li-category-expanded"><a class="menu-link-lower-expandable" href="triathlon-duathlon.html">Cross Triathlon i Duathlon Kids</a></li>
+								<li class="li-category-expanded"><a class="menu-link-lower-expandable" href="rajd-bushcraft.html">Rodzinny Rajd Turystyczno-Bushcraftowy</a></li>
+								<li class="li-category-expanded"><a class="menu-link-lower-expandable" href="kalendarz-imprez.html">Kalendarz Imprez</a></li>
+							</ul>
+						</li>
+
+						<li class="li-category"><a class="menu-link-higher" href="odznaki.html">Odznaki</a></li>
+						<li class="li-category"><a class="menu-link-higher" href="kontakt.html">Kontakt</a></li>
+						<li class="li-category"><a class="menu-link-higher" href="linki.html">Linki</a></li>
+					</ul>
+				</div>
+				<button class="hamburger-menu-container" onclick=showSidebar()>
+					<div class="hamburger-menu"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></div>
+				</button>
+			</div>
+		</nav>
+
+
+		<div id="main-wrapper">
+		<div class="outer-wrapper">
+
+			<div class="site-title-container"><h1 class="site-title">LII Ogólnopolski Młodzieżowy Turniej Turystyczno-Krajoznawczy</h1></div>
+
+			<div class="kola-main-container">
+				<div class="kola-background-radius">
+					<div class="wydarzenia-description-container">
+						<div class="wydarzenia-image-container">
+							<img class="wydarzenia-image" src="static/img/omttk-cover.jpg" alt="Trzech młodych ludzi z mapą">
+						</div>
+						<div class="kolo-title-container">
+							<h2 class="wydarzenie-title">
+								Eliminacje Wojewódzkie LII OMTTK
+							</h2>
+						</div>
+						<div class="kolo-description-paragraph-container">
+							<p class="kolo-description-paragraph">
+								Materiały do pobrania:
+							</p>
+						</div>
+						<div class="kolo-description-paragraph-container">
+							<p class="kolo-description-paragraph">
+								<a class="article-link" href="static/docs/regulamin2026.pdf">
+									Regulamin Eliminacji Wojewódzkich LII OMTTK
+								</a>
+							</p>
+						</div>
+						<div class="kolo-description-paragraph-container">
+							<p class="kolo-description-paragraph">
+								<a class="article-link" href="static/docs/oswiadczenie2026.pdf">
+									Oświadczenie/zgoda Uczestnika Eliminacji
+								</a>
+							</p>
+						</div>
+						<div class="kolo-description-paragraph-container">
+							<p class="kolo-description-paragraph">
+								<a class="article-link" href="static/docs/regulamin.pdf">
+									Ogólny Regulamin OMTTK
+								</a>
+							</p>
+						</div>
+						<div class="kolo-description-paragraph-container">
+							<p class="kolo-description-paragraph">
+								<a class="article-link" href="static/docs/warunki organizacji.pdf">
+									Warunki organizacji eliminacji OMTTK PTTK i szczegółowe zasady przeprowadzania konkurencji
+								</a>
+							</p>
+						</div>
+						<div class="kolo-description-paragraph-container">
+							<p class="kolo-description-paragraph">
+								<a class="article-link" href="static/docs/rowerowy tor.pdf">
+									Zasady przygotowania rowerowego toru przeszkód
+								</a>
+							</p>
+						</div>
+						<div class="kolo-description-paragraph-container">
+							<p class="kolo-description-paragraph">
+								Bibliografia:
+							</p>
+						</div>
+                        <div class="kolo-description-paragraph-container">
+							<p class="kolo-description-paragraph">
+								<a class="article-link" href="static/docs/kanon_krajoznawczy_polski_2005.pdf">
+									Kanon Krajoznawczy Polski 2005
+								</a>
+							</p>
+						</div>
+						<div class="kolo-description-paragraph-container">
+							<p class="kolo-description-paragraph">
+								<a class="article-link" href="static/docs/kanon_woj_lodzkiego.pdf">
+									Kanon Krajoznawczy Województwa Łódzkiego
+								</a>
+							</p>
+						</div>
+						<div class="kolo-description-paragraph-container">
+							<p class="kolo-description-paragraph">
+								<a class="article-link" href="static/docs/wybieram.pdf">
+									Wybieram wędrowanie - Poradnik Młodego Turysty
+								</a>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="wydarzenia-see-more-main-container">
+				<div class="wydarzenia-see-more-background-radius">
+					<div class="wydarzenia-see-more-description-container">
+						<div class="wydarzenia-see-more-header-container">
+							<header class="wydarzenia-see-more-header">
+								Odwiedź stronę mlodziez.pttk.pl i dowiedz się więcej!
+							</header>
+						</div>
+						<div class="wydarzenia-see-more-buttons-wrapper">
+							<div class="wydarzenia-see-more-button-container-single">
+								<a class="wydarzenia-see-more-button-link" href="https://mlodziez.pttk.pl/dla-was/konkursy/omttk-pttk" target="_blank">
+									<span class="wydarzenia-see-more-button-link-span">
+										OMTTK PTTK
+									</span>
+									<img class="wydarzenia-see-more-button-link-img" src="static/img/openinnewtab.svg" alt="Ikona otwarcia w nowej karcie">
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="wydarzenia-see-more-main-container">
+				<div class="wydarzenia-see-more-background-radius">
+					<div class="wydarzenia-see-more-description-container">
+						<div class="wydarzenia-see-more-header-container">
+							<header class="wydarzenia-see-more-header">
+								Sprawdź nasz kalendarz imprez:
+							</header>
+						</div>
+						<div class="wydarzenia-see-more-buttons-wrapper">
+							<div class="wydarzenia-see-more-button-container-single">
+								<a class="wydarzenia-see-more-button-link" href="kalendarz-imprez.html">
+									<span class="wydarzenia-see-more-button-link-span">
+										Kalendarz imprez 2026
+									</span>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		</div>
+	</div>
+
+	<footer id="footer">
+		<div class="footer-wrapper">
+			<div class="footer-content">
+				<div class="site-map">
+					<div class="site-map-list-container">
+						<span class="list-title">O nas</span>
+						<ul class="site-map-list">
+							<li class="site-map-list-item"><a class="site-map-list-item-link" href="historia.html">Historia</a></li>
+							<li class="site-map-list-item"><a class="site-map-list-item-link" href="wladze.html">Władze oddziału</a></li>
+							<li class="site-map-list-item"><a class="site-map-list-item-link" href="przewodnicy.html">Przewodnicy</a></li>
+							<li class="site-map-list-item"><a class="site-map-list-item-link" href="kola.html">Koła</a></li>
+						</ul>
+					</div>
+					<div class="site-map-list-container">
+						<span class="list-title">Wydarzenia</span>
+						<ul class="site-map-list">
+							<li class="site-map-list-item"><a class="site-map-list-item-link" href="wydarzenia-kajakowe.html">Kajakowe</a></li>
+							<li class="site-map-list-item"><a class="site-map-list-item-link" href="wydarzenia-piesze.html">Piesze</a></li>
+							<li class="site-map-list-item"><a class="site-map-list-item-link" href="wydarzenia-rowerowe.html">Rowerowe</a></li>
+							<li class="site-map-list-item"><a class="site-map-list-item-link" href="triathlon-duathlon.html">Cross Triathlon i Duathlon Kids</a></li>
+							<li class="site-map-list-item"><a class="site-map-list-item-link" href="omttk.html">OMTTK</a></li>
+							<li class="site-map-list-item"><a class="site-map-list-item-link" href="rajd-bushcraft.html">Rodzinny Rajd<br />Turystyczno-Bushcraftowy</a></li>
+							<li class="site-map-list-item"><a class="site-map-list-item-link" href="kalendarz-imprez.html">Kalendarz imprez</a></li>
+						</ul>
+					</div>
+					<div class="site-map-list-container">
+						<span class="list-title">Informacje</span>
+						<ul class="site-map-list">
+							<li class="site-map-list-item"><a class="site-map-list-item-link" href="odznaki.html">Odznaki</a></li>
+							<li class="site-map-list-item"><a class="site-map-list-item-link" href="kontakt.html">Kontakt</a></li>
+							<li class="site-map-list-item"><a class="site-map-list-item-link" href="linki.html">Linki</a></li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="footer-szaniec-info-container">
+					<span class="footer-szaniec-info-bold">Oddział PTTK "Szaniec" w Skierniewicach</span>
+					<div class="footer-szaniec-info-text-container">
+						<span class="footer-szaniec-info-text">ul. Sienkiewicza 18, 96-100 Skierniewice</span>
+						<span class="footer-szaniec-info-text">NIP: 836-174-61-56</span>
+					</div>
+					<span class="footer-szaniec-info-bold">Konto oddziału</span>
+					<div class="footer-szaniec-info-text-container">
+						<span class="footer-szaniec-info-text">Bank BNP PARIBAS</span>
+						<span class="footer-szaniec-info-text">85 1600 1462 1897 5408 2000 0001</span>
+					</div>
+				</div>
+			</div>
+
+			<div class="copyright-text-container">
+				<span class="copyright-text">Oddział PTTK "Szaniec" w Skierniewicach © 2025&nbsp;| Wykonanie:&nbsp;Jakub&nbsp;Kowalski</span>
+			</div>
+		</div>
+</footer>
+</body>
+</html>
