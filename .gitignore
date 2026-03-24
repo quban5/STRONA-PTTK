@@ -1,3 +1,5 @@
+.gitignore
+.gitattributes
 .env
 /prod
 /.vs
