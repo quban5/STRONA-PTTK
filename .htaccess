@@ -1,5 +1,24 @@
 Header add Clear-Site-Data: "cache"
 
+RewriteEngine On
+
+RewriteRule ^/?$ index.html
+RewriteRule ^historia/?$ historia.html
+RewriteRule ^kalendarz-imprez/?$ kalendarz-imprez.html
+RewriteRule ^kola-i-kluby/?$ kola-i-kluby.html
+RewriteRule ^kontakt/?$ kontakt.html
+RewriteRule ^linki/?$ linki.html
+RewriteRule ^odznaki/?$ odznaki.html
+RewriteRule ^omttk/?$ omttk.html
+RewriteRule ^omttk2026/?$ omttk2026.html
+RewriteRule ^przewodnicy/?$ przewodnicy.html
+RewriteRule ^rajd-bushcraft/?$ rajd-bushcraft.html
+RewriteRule ^triathlon-duathlon/?$ triathlon-duathlon.html
+RewriteRule ^wladze-oddzialu/?$ wladze.html
+RewriteRule ^wydarzenia-kajakowe/?$ wydarzenia-kajakowe.html
+RewriteRule ^wydarzenia-piesze/?$ wydarzenia-piesze.html
+RewriteRule ^wydarzenia-rowerowe/?$ wydarzenia-rowerowe.html
+
 # php -- BEGIN cPanel-generated handler, do not edit
 # Set the “ea-php81” package as the default “PHP” programming language.
 <IfModule mime_module>
