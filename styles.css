@@ -324,6 +324,11 @@ body {
 	text-underline-offset: 0.29rem;
 }
 
+.li-category-expanded:last-of-type {
+	border-bottom-left-radius: 16px;
+	border-bottom-right-radius: 16px;
+}
+
 .li-category-expanded:hover:last-of-type {
 	background-color: #E6E6E6;
 	text-decoration: underline;
