@@ -1,7 +1,12 @@
-Header add Clear-Site-Data: "cache"
+<FilesMatch "\.(css|jpg|jpeg|png|pdf|js)$">
+Header set Cache-Control "max-age=1800"
+</FilesMatch>
+
+<FilesMatch "\.(html)$">
+ExpiresActive Off
+</FilesMatch>
 
 RewriteEngine On
-
 RewriteRule ^/?$ index.html
 RewriteRule ^historia/?$ historia.html
 RewriteRule ^kalendarz-imprez/?$ kalendarz-imprez.html
